@@ -1,0 +1,369 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0534683 seconds.
+	VDB Netlist Checker took 0.0625 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 24.908 MB, end = 24.908 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 53.804 MB
+VDB Netlist Checker resident set memory usage: begin = 36.048 MB, end = 36.316 MB, delta = 0.268 MB
+	VDB Netlist Checker peak resident set memory usage = 64.48 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv'.
+Successfully processed interface constraints file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #572(rid_0[7]) has no fanout.
+Removing input.
+logical_block #573(rid_0[6]) has no fanout.
+Removing input.
+logical_block #574(rid_0[5]) has no fanout.
+Removing input.
+logical_block #575(rid_0[4]) has no fanout.
+Removing input.
+logical_block #576(rid_0[3]) has no fanout.
+Removing input.
+logical_block #577(rid_0[2]) has no fanout.
+Removing input.
+logical_block #578(rid_0[1]) has no fanout.
+Removing input.
+logical_block #579(rid_0[0]) has no fanout.
+Removing input.
+logical_block #836(rlast_0) has no fanout.
+Removing input.
+logical_block #839(rresp_0[1]) has no fanout.
+Removing input.
+logical_block #840(rresp_0[0]) has no fanout.
+Removing input.
+logical_block #841(rid_1[7]) has no fanout.
+Removing input.
+logical_block #842(rid_1[6]) has no fanout.
+Removing input.
+logical_block #843(rid_1[5]) has no fanout.
+Removing input.
+logical_block #844(rid_1[4]) has no fanout.
+Removing input.
+logical_block #845(rid_1[3]) has no fanout.
+Removing input.
+logical_block #846(rid_1[2]) has no fanout.
+Removing input.
+logical_block #847(rid_1[1]) has no fanout.
+Removing input.
+logical_block #848(rid_1[0]) has no fanout.
+Removing input.
+logical_block #977(rlast_1) has no fanout.
+Removing input.
+logical_block #980(rresp_1[1]) has no fanout.
+Removing input.
+logical_block #981(rresp_1[0]) has no fanout.
+Removing input.
+logical_block #982(bid_0[7]) has no fanout.
+Removing input.
+logical_block #983(bid_0[6]) has no fanout.
+Removing input.
+logical_block #984(bid_0[5]) has no fanout.
+Removing input.
+logical_block #985(bid_0[4]) has no fanout.
+Removing input.
+logical_block #986(bid_0[3]) has no fanout.
+Removing input.
+logical_block #987(bid_0[2]) has no fanout.
+Removing input.
+logical_block #988(bid_0[1]) has no fanout.
+Removing input.
+logical_block #989(bid_0[0]) has no fanout.
+Removing input.
+logical_block #992(bid_1[7]) has no fanout.
+Removing input.
+logical_block #993(bid_1[6]) has no fanout.
+Removing input.
+logical_block #994(bid_1[5]) has no fanout.
+Removing input.
+logical_block #995(bid_1[4]) has no fanout.
+Removing input.
+logical_block #996(bid_1[3]) has no fanout.
+Removing input.
+logical_block #997(bid_1[2]) has no fanout.
+Removing input.
+logical_block #998(bid_1[1]) has no fanout.
+Removing input.
+logical_block #999(bid_1[0]) has no fanout.
+Removing input.
+logical_block #1003(pll_rstni) has no fanout.
+Removing input.
+logical_block #1016(bscan_DRCK) has no fanout.
+Removing input.
+logical_block #1018(bscan_TMS) has no fanout.
+Removing input.
+logical_block #1019(bscan_RUNTEST) has no fanout.
+Removing input.
+Pass 0: Swept away 42 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 42 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 42 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.vdb".
+Netlist pre-processing took 0.31975 seconds.
+	Netlist pre-processing took 0.328125 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 14.64 MB, end = 36.332 MB, delta = 21.692 MB
+	Netlist pre-processing peak virtual memory usage = 53.804 MB
+Netlist pre-processing resident set memory usage: begin = 25.536 MB, end = 47.688 MB, delta = 22.152 MB
+	Netlist pre-processing peak resident set memory usage = 64.48 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto" took 0.008 seconds
+Creating IO constraints file 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.io_place'
+Packing took 0.0408687 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 40.492 MB, end = 45.66 MB, delta = 5.168 MB
+	Packing peak virtual memory usage = 53.804 MB
+Packing resident set memory usage: begin = 51.776 MB, end = 56.98 MB, delta = 5.204 MB
+	Packing peak resident set memory usage = 64.48 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto
+Read proto netlist for file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto" took 0.136 seconds
+Setup net and block data structure took 0.213 seconds
+Packed netlist loading took 2.24322 seconds.
+	Packed netlist loading took 2.71875 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 45.66 MB, end = 101.568 MB, delta = 55.908 MB
+	Packed netlist loading peak virtual memory usage = 140.724 MB
+Packed netlist loading resident set memory usage: begin = 56.988 MB, end = 110.992 MB, delta = 54.004 MB
+	Packed netlist loading peak resident set memory usage = 150.044 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+WARNING(1): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:14] No valid object(s) found for 'br0_pll_CLKOUT0'
+WARNING(2): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:14] No valid pin(s) found for clock
+WARNING(3): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:50] No clocks matched 'bscan_TCK'
+WARNING(5): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:50] set_output_delay: No valid clock found for -clock
+WARNING(6): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:50] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(7): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:51] No clocks matched 'bscan_TCK'
+WARNING(8): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:51] set_output_delay: No valid clock found for -clock
+WARNING(9): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:51] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(10): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:52] No clocks matched 'bscan_TCK'
+WARNING(11): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:52] set_input_delay: No valid clock found for -clock
+WARNING(12): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:52] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(13): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:53] No clocks matched 'bscan_TCK'
+WARNING(14): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:53] set_input_delay: No valid clock found for -clock
+WARNING(15): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:53] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(16): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:54] No clocks matched 'bscan_TCK'
+WARNING(17): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:54] set_input_delay: No valid clock found for -clock
+WARNING(18): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:54] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(19): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:55] No clocks matched 'bscan_TCK'
+WARNING(20): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:55] set_input_delay: No valid clock found for -clock
+WARNING(21): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:55] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(22): No ports matched 'bscan_RUNTEST'
+WARNING(23): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:56] No clocks matched 'bscan_TCK'
+WARNING(24): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:56] set_input_delay: No valid clock found for -clock
+WARNING(25): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:56] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(26): No ports matched 'bscan_RUNTEST'
+WARNING(27): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:57] No clocks matched 'bscan_TCK'
+WARNING(28): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:57] set_input_delay: No valid clock found for -clock
+WARNING(29): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:57] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(30): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:58] No clocks matched 'bscan_TCK'
+WARNING(31): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:58] set_input_delay: No valid clock found for -clock
+WARNING(32): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:58] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:59] No clocks matched 'bscan_TCK'
+WARNING(34): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:59] set_input_delay: No valid clock found for -clock
+WARNING(35): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:59] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(36): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:60] No clocks matched 'bscan_TCK'
+WARNING(37): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:60] set_input_delay: No valid clock found for -clock
+WARNING(38): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:60] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(39): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:61] No clocks matched 'bscan_TCK'
+WARNING(40): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:61] set_input_delay: No valid clock found for -clock
+WARNING(41): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(42): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:62] No clocks matched 'bscan_TCK'
+WARNING(43): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:62] set_input_delay: No valid clock found for -clock
+WARNING(44): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(45): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:63] No clocks matched 'bscan_TCK'
+WARNING(46): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:63] set_input_delay: No valid clock found for -clock
+WARNING(47): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(48): No ports matched 'bid_0[*]'
+WARNING(49): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:99] No valid object(s) found for ''
+WARNING(50): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:99] set_input_delay: No valid input port(s) found
+WARNING(51): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:99] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(52): No ports matched 'bid_0[*]'
+WARNING(53): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:100] No valid object(s) found for ''
+WARNING(54): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:100] set_input_delay: No valid input port(s) found
+WARNING(55): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:100] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(56): No ports matched 'rid_0[*]'
+WARNING(57): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:105] No valid object(s) found for ''
+WARNING(58): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING(59): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(60): No ports matched 'rid_0[*]'
+WARNING(61): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:106] No valid object(s) found for ''
+WARNING(62): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING(63): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(64): No ports matched 'rlast_0'
+WARNING(65): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:107] No valid object(s) found for ''
+WARNING(66): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING(67): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(68): No ports matched 'rlast_0'
+WARNING(69): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:108] No valid object(s) found for ''
+WARNING(70): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING(71): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(72): No ports matched 'rresp_0[1]'
+WARNING(73): No ports matched 'rresp_0[0]'
+WARNING(74): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:109] No valid object(s) found for ''
+WARNING(75): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING(76): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(77): No ports matched 'rresp_0[1]'
+WARNING(78): No ports matched 'rresp_0[0]'
+WARNING(79): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:110] No valid object(s) found for ''
+WARNING(80): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING(81): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(82): No ports matched 'bid_1[*]'
+WARNING(83): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:147] No valid object(s) found for ''
+WARNING(84): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:147] set_input_delay: No valid input port(s) found
+WARNING(85): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:147] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(86): No ports matched 'bid_1[*]'
+WARNING(87): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:148] No valid object(s) found for ''
+WARNING(88): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:148] set_input_delay: No valid input port(s) found
+WARNING(89): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:148] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(90): No ports matched 'rid_1[*]'
+WARNING(91): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:153] No valid object(s) found for ''
+WARNING(92): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:153] set_input_delay: No valid input port(s) found
+WARNING(93): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:153] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(94): No ports matched 'rid_1[*]'
+WARNING(95): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:154] No valid object(s) found for ''
+WARNING(96): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:154] set_input_delay: No valid input port(s) found
+WARNING(97): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:154] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(98): No ports matched 'rlast_1'
+WARNING(99): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:155] No valid object(s) found for ''
+WARNING(100): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:155] set_input_delay: No valid input port(s) found
+WARNING(101): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:155] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(102): No ports matched 'rlast_1'
+WARNING(103): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:156] No valid object(s) found for ''
+WARNING(104): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:156] set_input_delay: No valid input port(s) found
+WARNING(105): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:156] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(106): No ports matched 'rresp_1[1]'
+WARNING(107): No ports matched 'rresp_1[0]'
+WARNING(108): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:157] No valid object(s) found for ''
+WARNING(109): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:157] set_input_delay: No valid input port(s) found
+WARNING(110): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:157] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(111): No ports matched 'rresp_1[1]'
+WARNING(112): No ports matched 'rresp_1[0]'
+WARNING(113): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:158] No valid object(s) found for ''
+WARNING(114): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:158] set_input_delay: No valid input port(s) found
+WARNING(115): [SDC D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc:158] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc' parsed successfully.
+1 clocks (including virtual clocks), 392 inputs and 570 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv'.
+Successfully processed interface constraints file "D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv".
+Writing IO placement constraints to 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16.interface.io'.
+
+Reading placement constraints from 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16.interface.io'.
+
+Reading placement constraints from 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.io_place'.
+WARNING(116): Clock driver bscan_TCK should use the dedicated clock pad.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      321051           16055        73.5%
+          2      308421           14425        73.5%
+          3      345016           15018        73.5%
+          4      332506           15278        74.2%
+          5      150127           15410        75.5%
+          6      101572           15074        81.0%
+          7       88344           15150        86.1%
+          8       77350           15072        89.7%
+          9       71446           15109        92.6%
+         10       67777           14357        94.6%
+         11       64840           14536        95.9%
+         12       63412           13905        96.7%
+         13       62811           13586        97.3%
+         14       62534           13002        98.0%
+         15       62217           13627        98.8%
+         16       62208           12881        99.5%
+         17       62198           12995        99.8%
+         18       62215           13440        99.8%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       62198           18636        30.0
+          1       54702           21690        30.0
+          2       58291           21385        30.0
+          3       56041           21516        30.0
+          4       53517           21351        30.0
+          5       51072           20741        30.0
+          6       49593           20929        30.0
+          7       48391           20795        30.0
+          8       47715           21177        30.0
+          9       46939           19920        30.0
+         10       45976           20561        30.0
+         11       44752           21021        30.0
+         12       43773           20066        30.0
+         13       42744           19861        30.0
+         14       42237           20762        30.0
+         15       41139           20324        30.0
+         16       40403           20291        30.0
+         17       39756           19328        30.0
+         18       39185           18609        30.0
+         19       38619           19541        30.0
+         20       38121           19701        30.0
+         21       37731           19175        30.0
+         22       37250           19393        30.0
+         23       36722           19103        30.0
+         24       36391           20125        30.0
+         25       35983           19408        30.0
+         26       35657           18626        30.0
+         27       35302           19208        30.0
+         28       35061           18466        30.0
+         29       34653           18689        30.0
+         30       34370           18107        30.0
+         31       33866           19288        28.6
+         32       33411           18199        27.1
+Generate D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16_after_qp.qdelay
+Placement successful: 4548 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.0862789 at 326,169
+Congestion-weighted HPWL per net: 5.98923
+
+Reading placement constraints from 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.qplace'.
+Finished Realigning Types (660 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'D:/e/vicharak/effinity_projects/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.place'
+Placement took 19.1125 seconds.
+	Placement took 22.375 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 107.848 MB, end = 134.976 MB, delta = 27.128 MB
+	Placement peak virtual memory usage = 558.088 MB
+Placement resident set memory usage: begin = 116.64 MB, end = 138.964 MB, delta = 22.324 MB
+	Placement peak resident set memory usage = 554.924 MB
+***** Ending stage placement *****
+

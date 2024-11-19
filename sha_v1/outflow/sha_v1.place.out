@@ -1,0 +1,967 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.206045 seconds.
+	VDB Netlist Checker took 0.203125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 40.78 MB, end = 40.78 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 53.388 MB
+VDB Netlist Checker resident set memory usage: begin = 50.908 MB, end = 51.088 MB, delta = 0.18 MB
+	VDB Netlist Checker peak resident set memory usage = 63.2 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.vdb".
+Netlist pre-processing took 0.540809 seconds.
+	Netlist pre-processing took 0.515625 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.868 MB, end = 62.164 MB, delta = 49.296 MB
+	Netlist pre-processing peak virtual memory usage = 62.164 MB
+Netlist pre-processing resident set memory usage: begin = 24.256 MB, end = 72.024 MB, delta = 47.768 MB
+	Netlist pre-processing peak resident set memory usage = 72.028 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "E:/vicharak/effinity_projects/sha_v1/work_pnr\sha_v1.net_proto" took 0.023 seconds
+Creating IO constraints file 'E:/vicharak/effinity_projects/sha_v1/work_pnr\sha_v1.io_place'
+Packing took 0.157191 seconds.
+	Packing took 0.15625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 51.1 MB, end = 63.796 MB, delta = 12.696 MB
+	Packing peak virtual memory usage = 65.212 MB
+Packing resident set memory usage: begin = 61.212 MB, end = 74.06 MB, delta = 12.848 MB
+	Packing peak resident set memory usage = 75.34 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file E:/vicharak/effinity_projects/sha_v1/work_pnr\sha_v1.net_proto
+Read proto netlist for file "E:/vicharak/effinity_projects/sha_v1/work_pnr\sha_v1.net_proto" took 0.01 seconds
+Setup net and block data structure took 0.841 seconds
+Packed netlist loading took 4.2048 seconds.
+	Packed netlist loading took 5.65625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 63.796 MB, end = 190.768 MB, delta = 126.972 MB
+	Packed netlist loading peak virtual memory usage = 229.86 MB
+Packed netlist loading resident set memory usage: begin = 74.068 MB, end = 194.988 MB, delta = 120.92 MB
+	Packed netlist loading peak resident set memory usage = 233.988 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+SDC file 'E:/vicharak/effinity_projects/sha_v1/sha_v1.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.interface.csv".
+Writing IO placement constraints to 'E:/vicharak/effinity_projects/sha_v1/outflow\sha_v1.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_v1/outflow\sha_v1.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_v1/work_pnr\sha_v1.io_place'.
+WARNING(1): i_data[0] has no assigned placement; it will be placed randomly.
+WARNING(2): i_data[1] has no assigned placement; it will be placed randomly.
+WARNING(3): i_data[2] has no assigned placement; it will be placed randomly.
+WARNING(4): i_data[3] has no assigned placement; it will be placed randomly.
+WARNING(5): i_data[4] has no assigned placement; it will be placed randomly.
+WARNING(6): i_data[5] has no assigned placement; it will be placed randomly.
+WARNING(7): i_data[6] has no assigned placement; it will be placed randomly.
+WARNING(8): i_data[7] has no assigned placement; it will be placed randomly.
+WARNING(9): i_data[8] has no assigned placement; it will be placed randomly.
+WARNING(10): i_data[9] has no assigned placement; it will be placed randomly.
+WARNING(11): i_data[10] has no assigned placement; it will be placed randomly.
+WARNING(12): i_data[11] has no assigned placement; it will be placed randomly.
+WARNING(13): i_data[12] has no assigned placement; it will be placed randomly.
+WARNING(14): i_data[13] has no assigned placement; it will be placed randomly.
+WARNING(15): i_data[14] has no assigned placement; it will be placed randomly.
+WARNING(16): i_data[15] has no assigned placement; it will be placed randomly.
+WARNING(17): i_data[16] has no assigned placement; it will be placed randomly.
+WARNING(18): i_data[17] has no assigned placement; it will be placed randomly.
+WARNING(19): i_data[18] has no assigned placement; it will be placed randomly.
+WARNING(20): i_data[19] has no assigned placement; it will be placed randomly.
+WARNING(21): i_data[20] has no assigned placement; it will be placed randomly.
+WARNING(22): i_data[21] has no assigned placement; it will be placed randomly.
+WARNING(23): i_data[22] has no assigned placement; it will be placed randomly.
+WARNING(24): i_data[23] has no assigned placement; it will be placed randomly.
+WARNING(25): i_data[24] has no assigned placement; it will be placed randomly.
+WARNING(26): i_data[25] has no assigned placement; it will be placed randomly.
+WARNING(27): i_data[26] has no assigned placement; it will be placed randomly.
+WARNING(28): i_data[27] has no assigned placement; it will be placed randomly.
+WARNING(29): i_data[28] has no assigned placement; it will be placed randomly.
+WARNING(30): i_data[29] has no assigned placement; it will be placed randomly.
+WARNING(31): i_data[30] has no assigned placement; it will be placed randomly.
+WARNING(32): i_data[31] has no assigned placement; it will be placed randomly.
+WARNING(33): i_data[32] has no assigned placement; it will be placed randomly.
+WARNING(34): i_data[33] has no assigned placement; it will be placed randomly.
+WARNING(35): i_data[34] has no assigned placement; it will be placed randomly.
+WARNING(36): i_data[35] has no assigned placement; it will be placed randomly.
+WARNING(37): i_data[36] has no assigned placement; it will be placed randomly.
+WARNING(38): i_data[37] has no assigned placement; it will be placed randomly.
+WARNING(39): i_data[38] has no assigned placement; it will be placed randomly.
+WARNING(40): i_data[39] has no assigned placement; it will be placed randomly.
+WARNING(41): i_data[40] has no assigned placement; it will be placed randomly.
+WARNING(42): i_data[41] has no assigned placement; it will be placed randomly.
+WARNING(43): i_data[42] has no assigned placement; it will be placed randomly.
+WARNING(44): i_data[43] has no assigned placement; it will be placed randomly.
+WARNING(45): i_data[44] has no assigned placement; it will be placed randomly.
+WARNING(46): i_data[45] has no assigned placement; it will be placed randomly.
+WARNING(47): i_data[46] has no assigned placement; it will be placed randomly.
+WARNING(48): i_data[47] has no assigned placement; it will be placed randomly.
+WARNING(49): i_data[48] has no assigned placement; it will be placed randomly.
+WARNING(50): i_data[49] has no assigned placement; it will be placed randomly.
+WARNING(51): i_data[50] has no assigned placement; it will be placed randomly.
+WARNING(52): i_data[51] has no assigned placement; it will be placed randomly.
+WARNING(53): i_data[52] has no assigned placement; it will be placed randomly.
+WARNING(54): i_data[53] has no assigned placement; it will be placed randomly.
+WARNING(55): i_data[54] has no assigned placement; it will be placed randomly.
+WARNING(56): i_data[55] has no assigned placement; it will be placed randomly.
+WARNING(57): i_data[56] has no assigned placement; it will be placed randomly.
+WARNING(58): i_data[57] has no assigned placement; it will be placed randomly.
+WARNING(59): i_data[58] has no assigned placement; it will be placed randomly.
+WARNING(60): i_data[59] has no assigned placement; it will be placed randomly.
+WARNING(61): i_data[60] has no assigned placement; it will be placed randomly.
+WARNING(62): i_data[61] has no assigned placement; it will be placed randomly.
+WARNING(63): i_data[62] has no assigned placement; it will be placed randomly.
+WARNING(64): i_data[63] has no assigned placement; it will be placed randomly.
+WARNING(65): i_data[64] has no assigned placement; it will be placed randomly.
+WARNING(66): i_data[65] has no assigned placement; it will be placed randomly.
+WARNING(67): i_data[66] has no assigned placement; it will be placed randomly.
+WARNING(68): i_data[67] has no assigned placement; it will be placed randomly.
+WARNING(69): i_data[68] has no assigned placement; it will be placed randomly.
+WARNING(70): i_data[69] has no assigned placement; it will be placed randomly.
+WARNING(71): i_data[70] has no assigned placement; it will be placed randomly.
+WARNING(72): i_data[71] has no assigned placement; it will be placed randomly.
+WARNING(73): i_data[72] has no assigned placement; it will be placed randomly.
+WARNING(74): i_data[73] has no assigned placement; it will be placed randomly.
+WARNING(75): i_data[74] has no assigned placement; it will be placed randomly.
+WARNING(76): i_data[75] has no assigned placement; it will be placed randomly.
+WARNING(77): i_data[76] has no assigned placement; it will be placed randomly.
+WARNING(78): i_data[77] has no assigned placement; it will be placed randomly.
+WARNING(79): i_data[78] has no assigned placement; it will be placed randomly.
+WARNING(80): i_data[79] has no assigned placement; it will be placed randomly.
+WARNING(81): i_data[80] has no assigned placement; it will be placed randomly.
+WARNING(82): i_data[81] has no assigned placement; it will be placed randomly.
+WARNING(83): i_data[82] has no assigned placement; it will be placed randomly.
+WARNING(84): i_data[83] has no assigned placement; it will be placed randomly.
+WARNING(85): i_data[84] has no assigned placement; it will be placed randomly.
+WARNING(86): i_data[85] has no assigned placement; it will be placed randomly.
+WARNING(87): i_data[86] has no assigned placement; it will be placed randomly.
+WARNING(88): i_data[87] has no assigned placement; it will be placed randomly.
+WARNING(89): i_data[88] has no assigned placement; it will be placed randomly.
+WARNING(90): i_data[89] has no assigned placement; it will be placed randomly.
+WARNING(91): i_data[90] has no assigned placement; it will be placed randomly.
+WARNING(92): i_data[91] has no assigned placement; it will be placed randomly.
+WARNING(93): i_data[92] has no assigned placement; it will be placed randomly.
+WARNING(94): i_data[93] has no assigned placement; it will be placed randomly.
+WARNING(95): i_data[94] has no assigned placement; it will be placed randomly.
+WARNING(96): i_data[95] has no assigned placement; it will be placed randomly.
+WARNING(97): i_data[96] has no assigned placement; it will be placed randomly.
+WARNING(98): i_data[97] has no assigned placement; it will be placed randomly.
+WARNING(99): i_data[98] has no assigned placement; it will be placed randomly.
+WARNING(100): i_data[99] has no assigned placement; it will be placed randomly.
+WARNING(101): i_data[100] has no assigned placement; it will be placed randomly.
+WARNING(102): i_data[101] has no assigned placement; it will be placed randomly.
+WARNING(103): i_data[102] has no assigned placement; it will be placed randomly.
+WARNING(104): i_data[103] has no assigned placement; it will be placed randomly.
+WARNING(105): i_data[104] has no assigned placement; it will be placed randomly.
+WARNING(106): i_data[105] has no assigned placement; it will be placed randomly.
+WARNING(107): i_data[106] has no assigned placement; it will be placed randomly.
+WARNING(108): i_data[107] has no assigned placement; it will be placed randomly.
+WARNING(109): i_data[108] has no assigned placement; it will be placed randomly.
+WARNING(110): i_data[109] has no assigned placement; it will be placed randomly.
+WARNING(111): i_data[110] has no assigned placement; it will be placed randomly.
+WARNING(112): i_data[111] has no assigned placement; it will be placed randomly.
+WARNING(113): i_data[112] has no assigned placement; it will be placed randomly.
+WARNING(114): i_data[113] has no assigned placement; it will be placed randomly.
+WARNING(115): i_data[114] has no assigned placement; it will be placed randomly.
+WARNING(116): i_data[115] has no assigned placement; it will be placed randomly.
+WARNING(117): i_data[116] has no assigned placement; it will be placed randomly.
+WARNING(118): i_data[117] has no assigned placement; it will be placed randomly.
+WARNING(119): i_data[118] has no assigned placement; it will be placed randomly.
+WARNING(120): i_data[119] has no assigned placement; it will be placed randomly.
+WARNING(121): i_data[120] has no assigned placement; it will be placed randomly.
+WARNING(122): i_data[121] has no assigned placement; it will be placed randomly.
+WARNING(123): i_data[122] has no assigned placement; it will be placed randomly.
+WARNING(124): i_data[123] has no assigned placement; it will be placed randomly.
+WARNING(125): i_data[124] has no assigned placement; it will be placed randomly.
+WARNING(126): i_data[125] has no assigned placement; it will be placed randomly.
+WARNING(127): i_data[126] has no assigned placement; it will be placed randomly.
+WARNING(128): i_data[127] has no assigned placement; it will be placed randomly.
+WARNING(129): i_data[128] has no assigned placement; it will be placed randomly.
+WARNING(130): i_data[129] has no assigned placement; it will be placed randomly.
+WARNING(131): i_data[130] has no assigned placement; it will be placed randomly.
+WARNING(132): i_data[131] has no assigned placement; it will be placed randomly.
+WARNING(133): i_data[132] has no assigned placement; it will be placed randomly.
+WARNING(134): i_data[133] has no assigned placement; it will be placed randomly.
+WARNING(135): i_data[134] has no assigned placement; it will be placed randomly.
+WARNING(136): i_data[135] has no assigned placement; it will be placed randomly.
+WARNING(137): i_data[136] has no assigned placement; it will be placed randomly.
+WARNING(138): i_data[137] has no assigned placement; it will be placed randomly.
+WARNING(139): i_data[138] has no assigned placement; it will be placed randomly.
+WARNING(140): i_data[139] has no assigned placement; it will be placed randomly.
+WARNING(141): i_data[140] has no assigned placement; it will be placed randomly.
+WARNING(142): i_data[141] has no assigned placement; it will be placed randomly.
+WARNING(143): i_data[142] has no assigned placement; it will be placed randomly.
+WARNING(144): i_data[143] has no assigned placement; it will be placed randomly.
+WARNING(145): i_data[144] has no assigned placement; it will be placed randomly.
+WARNING(146): i_data[145] has no assigned placement; it will be placed randomly.
+WARNING(147): i_data[146] has no assigned placement; it will be placed randomly.
+WARNING(148): i_data[147] has no assigned placement; it will be placed randomly.
+WARNING(149): i_data[148] has no assigned placement; it will be placed randomly.
+WARNING(150): i_data[149] has no assigned placement; it will be placed randomly.
+WARNING(151): i_data[150] has no assigned placement; it will be placed randomly.
+WARNING(152): i_data[151] has no assigned placement; it will be placed randomly.
+WARNING(153): i_data[152] has no assigned placement; it will be placed randomly.
+WARNING(154): i_data[153] has no assigned placement; it will be placed randomly.
+WARNING(155): i_data[154] has no assigned placement; it will be placed randomly.
+WARNING(156): i_data[155] has no assigned placement; it will be placed randomly.
+WARNING(157): i_data[156] has no assigned placement; it will be placed randomly.
+WARNING(158): i_data[157] has no assigned placement; it will be placed randomly.
+WARNING(159): i_data[158] has no assigned placement; it will be placed randomly.
+WARNING(160): i_data[159] has no assigned placement; it will be placed randomly.
+WARNING(161): i_data[160] has no assigned placement; it will be placed randomly.
+WARNING(162): i_data[161] has no assigned placement; it will be placed randomly.
+WARNING(163): i_data[162] has no assigned placement; it will be placed randomly.
+WARNING(164): i_data[163] has no assigned placement; it will be placed randomly.
+WARNING(165): i_data[164] has no assigned placement; it will be placed randomly.
+WARNING(166): i_data[165] has no assigned placement; it will be placed randomly.
+WARNING(167): i_data[166] has no assigned placement; it will be placed randomly.
+WARNING(168): i_data[167] has no assigned placement; it will be placed randomly.
+WARNING(169): i_data[168] has no assigned placement; it will be placed randomly.
+WARNING(170): i_data[169] has no assigned placement; it will be placed randomly.
+WARNING(171): i_data[170] has no assigned placement; it will be placed randomly.
+WARNING(172): i_data[171] has no assigned placement; it will be placed randomly.
+WARNING(173): i_data[172] has no assigned placement; it will be placed randomly.
+WARNING(174): i_data[173] has no assigned placement; it will be placed randomly.
+WARNING(175): i_data[174] has no assigned placement; it will be placed randomly.
+WARNING(176): i_data[175] has no assigned placement; it will be placed randomly.
+WARNING(177): i_data[176] has no assigned placement; it will be placed randomly.
+WARNING(178): i_data[177] has no assigned placement; it will be placed randomly.
+WARNING(179): i_data[178] has no assigned placement; it will be placed randomly.
+WARNING(180): i_data[179] has no assigned placement; it will be placed randomly.
+WARNING(181): i_data[180] has no assigned placement; it will be placed randomly.
+WARNING(182): i_data[181] has no assigned placement; it will be placed randomly.
+WARNING(183): i_data[182] has no assigned placement; it will be placed randomly.
+WARNING(184): i_data[183] has no assigned placement; it will be placed randomly.
+WARNING(185): i_data[184] has no assigned placement; it will be placed randomly.
+WARNING(186): i_data[185] has no assigned placement; it will be placed randomly.
+WARNING(187): i_data[186] has no assigned placement; it will be placed randomly.
+WARNING(188): i_data[187] has no assigned placement; it will be placed randomly.
+WARNING(189): i_data[188] has no assigned placement; it will be placed randomly.
+WARNING(190): i_data[189] has no assigned placement; it will be placed randomly.
+WARNING(191): i_data[190] has no assigned placement; it will be placed randomly.
+WARNING(192): i_data[191] has no assigned placement; it will be placed randomly.
+WARNING(193): i_data[192] has no assigned placement; it will be placed randomly.
+WARNING(194): i_data[193] has no assigned placement; it will be placed randomly.
+WARNING(195): i_data[194] has no assigned placement; it will be placed randomly.
+WARNING(196): i_data[195] has no assigned placement; it will be placed randomly.
+WARNING(197): i_data[196] has no assigned placement; it will be placed randomly.
+WARNING(198): i_data[197] has no assigned placement; it will be placed randomly.
+WARNING(199): i_data[198] has no assigned placement; it will be placed randomly.
+WARNING(200): i_data[199] has no assigned placement; it will be placed randomly.
+WARNING(201): i_data[200] has no assigned placement; it will be placed randomly.
+WARNING(202): i_data[201] has no assigned placement; it will be placed randomly.
+WARNING(203): i_data[202] has no assigned placement; it will be placed randomly.
+WARNING(204): i_data[203] has no assigned placement; it will be placed randomly.
+WARNING(205): i_data[204] has no assigned placement; it will be placed randomly.
+WARNING(206): i_data[205] has no assigned placement; it will be placed randomly.
+WARNING(207): i_data[206] has no assigned placement; it will be placed randomly.
+WARNING(208): i_data[207] has no assigned placement; it will be placed randomly.
+WARNING(209): i_data[208] has no assigned placement; it will be placed randomly.
+WARNING(210): i_data[209] has no assigned placement; it will be placed randomly.
+WARNING(211): i_data[210] has no assigned placement; it will be placed randomly.
+WARNING(212): i_data[211] has no assigned placement; it will be placed randomly.
+WARNING(213): i_data[212] has no assigned placement; it will be placed randomly.
+WARNING(214): i_data[213] has no assigned placement; it will be placed randomly.
+WARNING(215): i_data[214] has no assigned placement; it will be placed randomly.
+WARNING(216): i_data[215] has no assigned placement; it will be placed randomly.
+WARNING(217): i_data[216] has no assigned placement; it will be placed randomly.
+WARNING(218): i_data[217] has no assigned placement; it will be placed randomly.
+WARNING(219): i_data[218] has no assigned placement; it will be placed randomly.
+WARNING(220): i_data[219] has no assigned placement; it will be placed randomly.
+WARNING(221): i_data[220] has no assigned placement; it will be placed randomly.
+WARNING(222): i_data[221] has no assigned placement; it will be placed randomly.
+WARNING(223): i_data[222] has no assigned placement; it will be placed randomly.
+WARNING(224): i_data[223] has no assigned placement; it will be placed randomly.
+WARNING(225): i_data[224] has no assigned placement; it will be placed randomly.
+WARNING(226): i_data[225] has no assigned placement; it will be placed randomly.
+WARNING(227): i_data[226] has no assigned placement; it will be placed randomly.
+WARNING(228): i_data[227] has no assigned placement; it will be placed randomly.
+WARNING(229): i_data[228] has no assigned placement; it will be placed randomly.
+WARNING(230): i_data[229] has no assigned placement; it will be placed randomly.
+WARNING(231): i_data[230] has no assigned placement; it will be placed randomly.
+WARNING(232): i_data[231] has no assigned placement; it will be placed randomly.
+WARNING(233): i_data[232] has no assigned placement; it will be placed randomly.
+WARNING(234): i_data[233] has no assigned placement; it will be placed randomly.
+WARNING(235): i_data[234] has no assigned placement; it will be placed randomly.
+WARNING(236): i_data[235] has no assigned placement; it will be placed randomly.
+WARNING(237): i_data[236] has no assigned placement; it will be placed randomly.
+WARNING(238): i_data[237] has no assigned placement; it will be placed randomly.
+WARNING(239): i_data[238] has no assigned placement; it will be placed randomly.
+WARNING(240): i_data[239] has no assigned placement; it will be placed randomly.
+WARNING(241): i_data[240] has no assigned placement; it will be placed randomly.
+WARNING(242): i_data[241] has no assigned placement; it will be placed randomly.
+WARNING(243): i_data[242] has no assigned placement; it will be placed randomly.
+WARNING(244): i_data[243] has no assigned placement; it will be placed randomly.
+WARNING(245): i_data[244] has no assigned placement; it will be placed randomly.
+WARNING(246): i_data[245] has no assigned placement; it will be placed randomly.
+WARNING(247): i_data[246] has no assigned placement; it will be placed randomly.
+WARNING(248): i_data[247] has no assigned placement; it will be placed randomly.
+WARNING(249): i_data[248] has no assigned placement; it will be placed randomly.
+WARNING(250): i_data[249] has no assigned placement; it will be placed randomly.
+WARNING(251): i_data[250] has no assigned placement; it will be placed randomly.
+WARNING(252): i_data[251] has no assigned placement; it will be placed randomly.
+WARNING(253): i_data[252] has no assigned placement; it will be placed randomly.
+WARNING(254): i_data[253] has no assigned placement; it will be placed randomly.
+WARNING(255): i_data[254] has no assigned placement; it will be placed randomly.
+WARNING(256): i_data[255] has no assigned placement; it will be placed randomly.
+WARNING(257): i_data[256] has no assigned placement; it will be placed randomly.
+WARNING(258): i_data[257] has no assigned placement; it will be placed randomly.
+WARNING(259): i_data[258] has no assigned placement; it will be placed randomly.
+WARNING(260): i_data[259] has no assigned placement; it will be placed randomly.
+WARNING(261): i_data[260] has no assigned placement; it will be placed randomly.
+WARNING(262): i_data[261] has no assigned placement; it will be placed randomly.
+WARNING(263): i_data[262] has no assigned placement; it will be placed randomly.
+WARNING(264): i_data[263] has no assigned placement; it will be placed randomly.
+WARNING(265): i_data[264] has no assigned placement; it will be placed randomly.
+WARNING(266): i_data[265] has no assigned placement; it will be placed randomly.
+WARNING(267): i_data[266] has no assigned placement; it will be placed randomly.
+WARNING(268): i_data[267] has no assigned placement; it will be placed randomly.
+WARNING(269): i_data[268] has no assigned placement; it will be placed randomly.
+WARNING(270): i_data[269] has no assigned placement; it will be placed randomly.
+WARNING(271): i_data[270] has no assigned placement; it will be placed randomly.
+WARNING(272): i_data[271] has no assigned placement; it will be placed randomly.
+WARNING(273): i_data[272] has no assigned placement; it will be placed randomly.
+WARNING(274): i_data[273] has no assigned placement; it will be placed randomly.
+WARNING(275): i_data[274] has no assigned placement; it will be placed randomly.
+WARNING(276): i_data[275] has no assigned placement; it will be placed randomly.
+WARNING(277): i_data[276] has no assigned placement; it will be placed randomly.
+WARNING(278): i_data[277] has no assigned placement; it will be placed randomly.
+WARNING(279): i_data[278] has no assigned placement; it will be placed randomly.
+WARNING(280): i_data[279] has no assigned placement; it will be placed randomly.
+WARNING(281): i_data[280] has no assigned placement; it will be placed randomly.
+WARNING(282): i_data[281] has no assigned placement; it will be placed randomly.
+WARNING(283): i_data[282] has no assigned placement; it will be placed randomly.
+WARNING(284): i_data[283] has no assigned placement; it will be placed randomly.
+WARNING(285): i_data[284] has no assigned placement; it will be placed randomly.
+WARNING(286): i_data[285] has no assigned placement; it will be placed randomly.
+WARNING(287): i_data[286] has no assigned placement; it will be placed randomly.
+WARNING(288): i_data[287] has no assigned placement; it will be placed randomly.
+WARNING(289): i_data[288] has no assigned placement; it will be placed randomly.
+WARNING(290): i_data[289] has no assigned placement; it will be placed randomly.
+WARNING(291): i_data[290] has no assigned placement; it will be placed randomly.
+WARNING(292): i_data[291] has no assigned placement; it will be placed randomly.
+WARNING(293): i_data[292] has no assigned placement; it will be placed randomly.
+WARNING(294): i_data[293] has no assigned placement; it will be placed randomly.
+WARNING(295): i_data[294] has no assigned placement; it will be placed randomly.
+WARNING(296): i_data[295] has no assigned placement; it will be placed randomly.
+WARNING(297): i_data[296] has no assigned placement; it will be placed randomly.
+WARNING(298): i_data[297] has no assigned placement; it will be placed randomly.
+WARNING(299): i_data[298] has no assigned placement; it will be placed randomly.
+WARNING(300): i_data[299] has no assigned placement; it will be placed randomly.
+WARNING(301): i_data[300] has no assigned placement; it will be placed randomly.
+WARNING(302): i_data[301] has no assigned placement; it will be placed randomly.
+WARNING(303): i_data[302] has no assigned placement; it will be placed randomly.
+WARNING(304): i_data[303] has no assigned placement; it will be placed randomly.
+WARNING(305): i_data[304] has no assigned placement; it will be placed randomly.
+WARNING(306): i_data[305] has no assigned placement; it will be placed randomly.
+WARNING(307): i_data[306] has no assigned placement; it will be placed randomly.
+WARNING(308): i_data[307] has no assigned placement; it will be placed randomly.
+WARNING(309): i_data[308] has no assigned placement; it will be placed randomly.
+WARNING(310): i_data[309] has no assigned placement; it will be placed randomly.
+WARNING(311): i_data[310] has no assigned placement; it will be placed randomly.
+WARNING(312): i_data[311] has no assigned placement; it will be placed randomly.
+WARNING(313): i_data[312] has no assigned placement; it will be placed randomly.
+WARNING(314): i_data[313] has no assigned placement; it will be placed randomly.
+WARNING(315): i_data[314] has no assigned placement; it will be placed randomly.
+WARNING(316): i_data[315] has no assigned placement; it will be placed randomly.
+WARNING(317): i_data[316] has no assigned placement; it will be placed randomly.
+WARNING(318): i_data[317] has no assigned placement; it will be placed randomly.
+WARNING(319): i_data[318] has no assigned placement; it will be placed randomly.
+WARNING(320): i_data[319] has no assigned placement; it will be placed randomly.
+WARNING(321): i_data[320] has no assigned placement; it will be placed randomly.
+WARNING(322): i_data[321] has no assigned placement; it will be placed randomly.
+WARNING(323): i_data[322] has no assigned placement; it will be placed randomly.
+WARNING(324): i_data[323] has no assigned placement; it will be placed randomly.
+WARNING(325): i_data[324] has no assigned placement; it will be placed randomly.
+WARNING(326): i_data[325] has no assigned placement; it will be placed randomly.
+WARNING(327): i_data[326] has no assigned placement; it will be placed randomly.
+WARNING(328): i_data[327] has no assigned placement; it will be placed randomly.
+WARNING(329): i_data[328] has no assigned placement; it will be placed randomly.
+WARNING(330): i_data[329] has no assigned placement; it will be placed randomly.
+WARNING(331): i_data[330] has no assigned placement; it will be placed randomly.
+WARNING(332): i_data[331] has no assigned placement; it will be placed randomly.
+WARNING(333): i_data[332] has no assigned placement; it will be placed randomly.
+WARNING(334): i_data[333] has no assigned placement; it will be placed randomly.
+WARNING(335): i_data[334] has no assigned placement; it will be placed randomly.
+WARNING(336): i_data[335] has no assigned placement; it will be placed randomly.
+WARNING(337): i_data[336] has no assigned placement; it will be placed randomly.
+WARNING(338): i_data[337] has no assigned placement; it will be placed randomly.
+WARNING(339): i_data[338] has no assigned placement; it will be placed randomly.
+WARNING(340): i_data[339] has no assigned placement; it will be placed randomly.
+WARNING(341): i_data[340] has no assigned placement; it will be placed randomly.
+WARNING(342): i_data[341] has no assigned placement; it will be placed randomly.
+WARNING(343): i_data[342] has no assigned placement; it will be placed randomly.
+WARNING(344): i_data[343] has no assigned placement; it will be placed randomly.
+WARNING(345): i_data[344] has no assigned placement; it will be placed randomly.
+WARNING(346): i_data[345] has no assigned placement; it will be placed randomly.
+WARNING(347): i_data[346] has no assigned placement; it will be placed randomly.
+WARNING(348): i_data[347] has no assigned placement; it will be placed randomly.
+WARNING(349): i_data[348] has no assigned placement; it will be placed randomly.
+WARNING(350): i_data[349] has no assigned placement; it will be placed randomly.
+WARNING(351): i_data[350] has no assigned placement; it will be placed randomly.
+WARNING(352): i_data[351] has no assigned placement; it will be placed randomly.
+WARNING(353): i_data[352] has no assigned placement; it will be placed randomly.
+WARNING(354): i_data[353] has no assigned placement; it will be placed randomly.
+WARNING(355): i_data[354] has no assigned placement; it will be placed randomly.
+WARNING(356): i_data[355] has no assigned placement; it will be placed randomly.
+WARNING(357): i_data[356] has no assigned placement; it will be placed randomly.
+WARNING(358): i_data[357] has no assigned placement; it will be placed randomly.
+WARNING(359): i_data[358] has no assigned placement; it will be placed randomly.
+WARNING(360): i_data[359] has no assigned placement; it will be placed randomly.
+WARNING(361): i_data[360] has no assigned placement; it will be placed randomly.
+WARNING(362): i_data[361] has no assigned placement; it will be placed randomly.
+WARNING(363): i_data[362] has no assigned placement; it will be placed randomly.
+WARNING(364): i_data[363] has no assigned placement; it will be placed randomly.
+WARNING(365): i_data[364] has no assigned placement; it will be placed randomly.
+WARNING(366): i_data[365] has no assigned placement; it will be placed randomly.
+WARNING(367): i_data[366] has no assigned placement; it will be placed randomly.
+WARNING(368): i_data[367] has no assigned placement; it will be placed randomly.
+WARNING(369): i_data[368] has no assigned placement; it will be placed randomly.
+WARNING(370): i_data[369] has no assigned placement; it will be placed randomly.
+WARNING(371): i_data[370] has no assigned placement; it will be placed randomly.
+WARNING(372): i_data[371] has no assigned placement; it will be placed randomly.
+WARNING(373): i_data[372] has no assigned placement; it will be placed randomly.
+WARNING(374): i_data[373] has no assigned placement; it will be placed randomly.
+WARNING(375): i_data[374] has no assigned placement; it will be placed randomly.
+WARNING(376): i_data[375] has no assigned placement; it will be placed randomly.
+WARNING(377): i_data[376] has no assigned placement; it will be placed randomly.
+WARNING(378): i_data[377] has no assigned placement; it will be placed randomly.
+WARNING(379): i_data[378] has no assigned placement; it will be placed randomly.
+WARNING(380): i_data[379] has no assigned placement; it will be placed randomly.
+WARNING(381): i_data[380] has no assigned placement; it will be placed randomly.
+WARNING(382): i_data[381] has no assigned placement; it will be placed randomly.
+WARNING(383): i_data[382] has no assigned placement; it will be placed randomly.
+WARNING(384): i_data[383] has no assigned placement; it will be placed randomly.
+WARNING(385): i_data[384] has no assigned placement; it will be placed randomly.
+WARNING(386): i_data[385] has no assigned placement; it will be placed randomly.
+WARNING(387): i_data[386] has no assigned placement; it will be placed randomly.
+WARNING(388): i_data[387] has no assigned placement; it will be placed randomly.
+WARNING(389): i_data[388] has no assigned placement; it will be placed randomly.
+WARNING(390): i_data[389] has no assigned placement; it will be placed randomly.
+WARNING(391): i_data[390] has no assigned placement; it will be placed randomly.
+WARNING(392): i_data[391] has no assigned placement; it will be placed randomly.
+WARNING(393): i_data[392] has no assigned placement; it will be placed randomly.
+WARNING(394): i_data[393] has no assigned placement; it will be placed randomly.
+WARNING(395): i_data[394] has no assigned placement; it will be placed randomly.
+WARNING(396): i_data[395] has no assigned placement; it will be placed randomly.
+WARNING(397): i_data[396] has no assigned placement; it will be placed randomly.
+WARNING(398): i_data[397] has no assigned placement; it will be placed randomly.
+WARNING(399): i_data[398] has no assigned placement; it will be placed randomly.
+WARNING(400): i_data[399] has no assigned placement; it will be placed randomly.
+WARNING(401): i_data[400] has no assigned placement; it will be placed randomly.
+WARNING(402): i_data[401] has no assigned placement; it will be placed randomly.
+WARNING(403): i_data[402] has no assigned placement; it will be placed randomly.
+WARNING(404): i_data[403] has no assigned placement; it will be placed randomly.
+WARNING(405): i_data[404] has no assigned placement; it will be placed randomly.
+WARNING(406): i_data[405] has no assigned placement; it will be placed randomly.
+WARNING(407): i_data[406] has no assigned placement; it will be placed randomly.
+WARNING(408): i_data[407] has no assigned placement; it will be placed randomly.
+WARNING(409): i_data[408] has no assigned placement; it will be placed randomly.
+WARNING(410): i_data[409] has no assigned placement; it will be placed randomly.
+WARNING(411): i_data[410] has no assigned placement; it will be placed randomly.
+WARNING(412): i_data[411] has no assigned placement; it will be placed randomly.
+WARNING(413): i_data[412] has no assigned placement; it will be placed randomly.
+WARNING(414): i_data[413] has no assigned placement; it will be placed randomly.
+WARNING(415): i_data[414] has no assigned placement; it will be placed randomly.
+WARNING(416): i_data[415] has no assigned placement; it will be placed randomly.
+WARNING(417): i_data[416] has no assigned placement; it will be placed randomly.
+WARNING(418): i_data[417] has no assigned placement; it will be placed randomly.
+WARNING(419): i_data[418] has no assigned placement; it will be placed randomly.
+WARNING(420): i_data[419] has no assigned placement; it will be placed randomly.
+WARNING(421): i_data[420] has no assigned placement; it will be placed randomly.
+WARNING(422): i_data[421] has no assigned placement; it will be placed randomly.
+WARNING(423): i_data[422] has no assigned placement; it will be placed randomly.
+WARNING(424): i_data[423] has no assigned placement; it will be placed randomly.
+WARNING(425): i_data[424] has no assigned placement; it will be placed randomly.
+WARNING(426): i_data[425] has no assigned placement; it will be placed randomly.
+WARNING(427): i_data[426] has no assigned placement; it will be placed randomly.
+WARNING(428): i_data[427] has no assigned placement; it will be placed randomly.
+WARNING(429): i_data[428] has no assigned placement; it will be placed randomly.
+WARNING(430): i_data[429] has no assigned placement; it will be placed randomly.
+WARNING(431): i_data[430] has no assigned placement; it will be placed randomly.
+WARNING(432): i_data[431] has no assigned placement; it will be placed randomly.
+WARNING(433): i_data[432] has no assigned placement; it will be placed randomly.
+WARNING(434): i_data[433] has no assigned placement; it will be placed randomly.
+WARNING(435): i_data[434] has no assigned placement; it will be placed randomly.
+WARNING(436): i_data[435] has no assigned placement; it will be placed randomly.
+WARNING(437): i_data[436] has no assigned placement; it will be placed randomly.
+WARNING(438): i_data[437] has no assigned placement; it will be placed randomly.
+WARNING(439): i_data[438] has no assigned placement; it will be placed randomly.
+WARNING(440): i_data[439] has no assigned placement; it will be placed randomly.
+WARNING(441): i_data[440] has no assigned placement; it will be placed randomly.
+WARNING(442): i_data[441] has no assigned placement; it will be placed randomly.
+WARNING(443): i_data[442] has no assigned placement; it will be placed randomly.
+WARNING(444): i_data[443] has no assigned placement; it will be placed randomly.
+WARNING(445): i_data[444] has no assigned placement; it will be placed randomly.
+WARNING(446): i_data[445] has no assigned placement; it will be placed randomly.
+WARNING(447): i_data[446] has no assigned placement; it will be placed randomly.
+WARNING(448): i_data[447] has no assigned placement; it will be placed randomly.
+WARNING(449): i_data[448] has no assigned placement; it will be placed randomly.
+WARNING(450): i_data[449] has no assigned placement; it will be placed randomly.
+WARNING(451): i_data[450] has no assigned placement; it will be placed randomly.
+WARNING(452): i_data[451] has no assigned placement; it will be placed randomly.
+WARNING(453): i_data[452] has no assigned placement; it will be placed randomly.
+WARNING(454): i_data[453] has no assigned placement; it will be placed randomly.
+WARNING(455): i_data[454] has no assigned placement; it will be placed randomly.
+WARNING(456): i_data[455] has no assigned placement; it will be placed randomly.
+WARNING(457): i_data[456] has no assigned placement; it will be placed randomly.
+WARNING(458): i_data[457] has no assigned placement; it will be placed randomly.
+WARNING(459): i_data[458] has no assigned placement; it will be placed randomly.
+WARNING(460): i_data[459] has no assigned placement; it will be placed randomly.
+WARNING(461): i_data[460] has no assigned placement; it will be placed randomly.
+WARNING(462): i_data[461] has no assigned placement; it will be placed randomly.
+WARNING(463): i_data[462] has no assigned placement; it will be placed randomly.
+WARNING(464): i_data[463] has no assigned placement; it will be placed randomly.
+WARNING(465): i_data[464] has no assigned placement; it will be placed randomly.
+WARNING(466): i_data[465] has no assigned placement; it will be placed randomly.
+WARNING(467): i_data[466] has no assigned placement; it will be placed randomly.
+WARNING(468): i_data[467] has no assigned placement; it will be placed randomly.
+WARNING(469): i_data[468] has no assigned placement; it will be placed randomly.
+WARNING(470): i_data[469] has no assigned placement; it will be placed randomly.
+WARNING(471): i_data[470] has no assigned placement; it will be placed randomly.
+WARNING(472): i_data[471] has no assigned placement; it will be placed randomly.
+WARNING(473): i_data[472] has no assigned placement; it will be placed randomly.
+WARNING(474): i_data[473] has no assigned placement; it will be placed randomly.
+WARNING(475): i_data[474] has no assigned placement; it will be placed randomly.
+WARNING(476): i_data[475] has no assigned placement; it will be placed randomly.
+WARNING(477): i_data[476] has no assigned placement; it will be placed randomly.
+WARNING(478): i_data[477] has no assigned placement; it will be placed randomly.
+WARNING(479): i_data[478] has no assigned placement; it will be placed randomly.
+WARNING(480): i_data[479] has no assigned placement; it will be placed randomly.
+WARNING(481): i_data[480] has no assigned placement; it will be placed randomly.
+WARNING(482): i_data[481] has no assigned placement; it will be placed randomly.
+WARNING(483): i_data[482] has no assigned placement; it will be placed randomly.
+WARNING(484): i_data[483] has no assigned placement; it will be placed randomly.
+WARNING(485): i_data[484] has no assigned placement; it will be placed randomly.
+WARNING(486): i_data[485] has no assigned placement; it will be placed randomly.
+WARNING(487): i_data[486] has no assigned placement; it will be placed randomly.
+WARNING(488): i_data[487] has no assigned placement; it will be placed randomly.
+WARNING(489): i_data[488] has no assigned placement; it will be placed randomly.
+WARNING(490): i_data[489] has no assigned placement; it will be placed randomly.
+WARNING(491): i_data[490] has no assigned placement; it will be placed randomly.
+WARNING(492): i_data[491] has no assigned placement; it will be placed randomly.
+WARNING(493): i_data[492] has no assigned placement; it will be placed randomly.
+WARNING(494): i_data[493] has no assigned placement; it will be placed randomly.
+WARNING(495): i_data[494] has no assigned placement; it will be placed randomly.
+WARNING(496): i_data[495] has no assigned placement; it will be placed randomly.
+WARNING(497): i_data[496] has no assigned placement; it will be placed randomly.
+WARNING(498): i_data[497] has no assigned placement; it will be placed randomly.
+WARNING(499): i_data[498] has no assigned placement; it will be placed randomly.
+WARNING(500): i_data[499] has no assigned placement; it will be placed randomly.
+WARNING(501): i_data[500] has no assigned placement; it will be placed randomly.
+WARNING(502): i_data[501] has no assigned placement; it will be placed randomly.
+WARNING(503): i_data[502] has no assigned placement; it will be placed randomly.
+WARNING(504): i_data[503] has no assigned placement; it will be placed randomly.
+WARNING(505): i_data[504] has no assigned placement; it will be placed randomly.
+WARNING(506): i_data[505] has no assigned placement; it will be placed randomly.
+WARNING(507): i_data[506] has no assigned placement; it will be placed randomly.
+WARNING(508): i_data[507] has no assigned placement; it will be placed randomly.
+WARNING(509): i_data[508] has no assigned placement; it will be placed randomly.
+WARNING(510): i_data[509] has no assigned placement; it will be placed randomly.
+WARNING(511): i_data[510] has no assigned placement; it will be placed randomly.
+WARNING(512): i_data[511] has no assigned placement; it will be placed randomly.
+WARNING(513): signature[0] has no assigned placement; it will be placed randomly.
+WARNING(514): signature[1] has no assigned placement; it will be placed randomly.
+WARNING(515): signature[2] has no assigned placement; it will be placed randomly.
+WARNING(516): signature[3] has no assigned placement; it will be placed randomly.
+WARNING(517): signature[4] has no assigned placement; it will be placed randomly.
+WARNING(518): signature[5] has no assigned placement; it will be placed randomly.
+WARNING(519): signature[6] has no assigned placement; it will be placed randomly.
+WARNING(520): signature[7] has no assigned placement; it will be placed randomly.
+WARNING(521): signature[8] has no assigned placement; it will be placed randomly.
+WARNING(522): signature[9] has no assigned placement; it will be placed randomly.
+WARNING(523): signature[10] has no assigned placement; it will be placed randomly.
+WARNING(524): signature[11] has no assigned placement; it will be placed randomly.
+WARNING(525): signature[12] has no assigned placement; it will be placed randomly.
+WARNING(526): signature[13] has no assigned placement; it will be placed randomly.
+WARNING(527): signature[14] has no assigned placement; it will be placed randomly.
+WARNING(528): signature[15] has no assigned placement; it will be placed randomly.
+WARNING(529): signature[16] has no assigned placement; it will be placed randomly.
+WARNING(530): signature[17] has no assigned placement; it will be placed randomly.
+WARNING(531): signature[18] has no assigned placement; it will be placed randomly.
+WARNING(532): signature[19] has no assigned placement; it will be placed randomly.
+WARNING(533): signature[20] has no assigned placement; it will be placed randomly.
+WARNING(534): signature[21] has no assigned placement; it will be placed randomly.
+WARNING(535): signature[22] has no assigned placement; it will be placed randomly.
+WARNING(536): signature[23] has no assigned placement; it will be placed randomly.
+WARNING(537): signature[24] has no assigned placement; it will be placed randomly.
+WARNING(538): signature[25] has no assigned placement; it will be placed randomly.
+WARNING(539): signature[26] has no assigned placement; it will be placed randomly.
+WARNING(540): signature[27] has no assigned placement; it will be placed randomly.
+WARNING(541): signature[28] has no assigned placement; it will be placed randomly.
+WARNING(542): signature[29] has no assigned placement; it will be placed randomly.
+WARNING(543): signature[30] has no assigned placement; it will be placed randomly.
+WARNING(544): signature[31] has no assigned placement; it will be placed randomly.
+WARNING(545): signature[32] has no assigned placement; it will be placed randomly.
+WARNING(546): signature[33] has no assigned placement; it will be placed randomly.
+WARNING(547): signature[34] has no assigned placement; it will be placed randomly.
+WARNING(548): signature[35] has no assigned placement; it will be placed randomly.
+WARNING(549): signature[36] has no assigned placement; it will be placed randomly.
+WARNING(550): signature[37] has no assigned placement; it will be placed randomly.
+WARNING(551): signature[38] has no assigned placement; it will be placed randomly.
+WARNING(552): signature[39] has no assigned placement; it will be placed randomly.
+WARNING(553): signature[40] has no assigned placement; it will be placed randomly.
+WARNING(554): signature[41] has no assigned placement; it will be placed randomly.
+WARNING(555): signature[42] has no assigned placement; it will be placed randomly.
+WARNING(556): signature[43] has no assigned placement; it will be placed randomly.
+WARNING(557): signature[44] has no assigned placement; it will be placed randomly.
+WARNING(558): signature[45] has no assigned placement; it will be placed randomly.
+WARNING(559): signature[46] has no assigned placement; it will be placed randomly.
+WARNING(560): signature[47] has no assigned placement; it will be placed randomly.
+WARNING(561): signature[48] has no assigned placement; it will be placed randomly.
+WARNING(562): signature[49] has no assigned placement; it will be placed randomly.
+WARNING(563): signature[50] has no assigned placement; it will be placed randomly.
+WARNING(564): signature[51] has no assigned placement; it will be placed randomly.
+WARNING(565): signature[52] has no assigned placement; it will be placed randomly.
+WARNING(566): signature[53] has no assigned placement; it will be placed randomly.
+WARNING(567): signature[54] has no assigned placement; it will be placed randomly.
+WARNING(568): signature[55] has no assigned placement; it will be placed randomly.
+WARNING(569): signature[56] has no assigned placement; it will be placed randomly.
+WARNING(570): signature[57] has no assigned placement; it will be placed randomly.
+WARNING(571): signature[58] has no assigned placement; it will be placed randomly.
+WARNING(572): signature[59] has no assigned placement; it will be placed randomly.
+WARNING(573): signature[60] has no assigned placement; it will be placed randomly.
+WARNING(574): signature[61] has no assigned placement; it will be placed randomly.
+WARNING(575): signature[62] has no assigned placement; it will be placed randomly.
+WARNING(576): signature[63] has no assigned placement; it will be placed randomly.
+WARNING(577): signature[64] has no assigned placement; it will be placed randomly.
+WARNING(578): signature[65] has no assigned placement; it will be placed randomly.
+WARNING(579): signature[66] has no assigned placement; it will be placed randomly.
+WARNING(580): signature[67] has no assigned placement; it will be placed randomly.
+WARNING(581): signature[68] has no assigned placement; it will be placed randomly.
+WARNING(582): signature[69] has no assigned placement; it will be placed randomly.
+WARNING(583): signature[70] has no assigned placement; it will be placed randomly.
+WARNING(584): signature[71] has no assigned placement; it will be placed randomly.
+WARNING(585): signature[72] has no assigned placement; it will be placed randomly.
+WARNING(586): signature[73] has no assigned placement; it will be placed randomly.
+WARNING(587): signature[74] has no assigned placement; it will be placed randomly.
+WARNING(588): signature[75] has no assigned placement; it will be placed randomly.
+WARNING(589): signature[76] has no assigned placement; it will be placed randomly.
+WARNING(590): signature[77] has no assigned placement; it will be placed randomly.
+WARNING(591): signature[78] has no assigned placement; it will be placed randomly.
+WARNING(592): signature[79] has no assigned placement; it will be placed randomly.
+WARNING(593): signature[80] has no assigned placement; it will be placed randomly.
+WARNING(594): signature[81] has no assigned placement; it will be placed randomly.
+WARNING(595): signature[82] has no assigned placement; it will be placed randomly.
+WARNING(596): signature[83] has no assigned placement; it will be placed randomly.
+WARNING(597): signature[84] has no assigned placement; it will be placed randomly.
+WARNING(598): signature[85] has no assigned placement; it will be placed randomly.
+WARNING(599): signature[86] has no assigned placement; it will be placed randomly.
+WARNING(600): signature[87] has no assigned placement; it will be placed randomly.
+WARNING(601): signature[88] has no assigned placement; it will be placed randomly.
+WARNING(602): signature[89] has no assigned placement; it will be placed randomly.
+WARNING(603): signature[90] has no assigned placement; it will be placed randomly.
+WARNING(604): signature[91] has no assigned placement; it will be placed randomly.
+WARNING(605): signature[92] has no assigned placement; it will be placed randomly.
+WARNING(606): signature[93] has no assigned placement; it will be placed randomly.
+WARNING(607): signature[94] has no assigned placement; it will be placed randomly.
+WARNING(608): signature[95] has no assigned placement; it will be placed randomly.
+WARNING(609): signature[96] has no assigned placement; it will be placed randomly.
+WARNING(610): signature[97] has no assigned placement; it will be placed randomly.
+WARNING(611): signature[98] has no assigned placement; it will be placed randomly.
+WARNING(612): signature[99] has no assigned placement; it will be placed randomly.
+WARNING(613): signature[100] has no assigned placement; it will be placed randomly.
+WARNING(614): signature[101] has no assigned placement; it will be placed randomly.
+WARNING(615): signature[102] has no assigned placement; it will be placed randomly.
+WARNING(616): signature[103] has no assigned placement; it will be placed randomly.
+WARNING(617): signature[104] has no assigned placement; it will be placed randomly.
+WARNING(618): signature[105] has no assigned placement; it will be placed randomly.
+WARNING(619): signature[106] has no assigned placement; it will be placed randomly.
+WARNING(620): signature[107] has no assigned placement; it will be placed randomly.
+WARNING(621): signature[108] has no assigned placement; it will be placed randomly.
+WARNING(622): signature[109] has no assigned placement; it will be placed randomly.
+WARNING(623): signature[110] has no assigned placement; it will be placed randomly.
+WARNING(624): signature[111] has no assigned placement; it will be placed randomly.
+WARNING(625): signature[112] has no assigned placement; it will be placed randomly.
+WARNING(626): signature[113] has no assigned placement; it will be placed randomly.
+WARNING(627): signature[114] has no assigned placement; it will be placed randomly.
+WARNING(628): signature[115] has no assigned placement; it will be placed randomly.
+WARNING(629): signature[116] has no assigned placement; it will be placed randomly.
+WARNING(630): signature[117] has no assigned placement; it will be placed randomly.
+WARNING(631): signature[118] has no assigned placement; it will be placed randomly.
+WARNING(632): signature[119] has no assigned placement; it will be placed randomly.
+WARNING(633): signature[120] has no assigned placement; it will be placed randomly.
+WARNING(634): signature[121] has no assigned placement; it will be placed randomly.
+WARNING(635): signature[122] has no assigned placement; it will be placed randomly.
+WARNING(636): signature[123] has no assigned placement; it will be placed randomly.
+WARNING(637): signature[124] has no assigned placement; it will be placed randomly.
+WARNING(638): signature[125] has no assigned placement; it will be placed randomly.
+WARNING(639): signature[126] has no assigned placement; it will be placed randomly.
+WARNING(640): signature[127] has no assigned placement; it will be placed randomly.
+WARNING(641): signature[128] has no assigned placement; it will be placed randomly.
+WARNING(642): signature[129] has no assigned placement; it will be placed randomly.
+WARNING(643): signature[130] has no assigned placement; it will be placed randomly.
+WARNING(644): signature[131] has no assigned placement; it will be placed randomly.
+WARNING(645): signature[132] has no assigned placement; it will be placed randomly.
+WARNING(646): signature[133] has no assigned placement; it will be placed randomly.
+WARNING(647): signature[134] has no assigned placement; it will be placed randomly.
+WARNING(648): signature[135] has no assigned placement; it will be placed randomly.
+WARNING(649): signature[136] has no assigned placement; it will be placed randomly.
+WARNING(650): signature[137] has no assigned placement; it will be placed randomly.
+WARNING(651): signature[138] has no assigned placement; it will be placed randomly.
+WARNING(652): signature[139] has no assigned placement; it will be placed randomly.
+WARNING(653): signature[140] has no assigned placement; it will be placed randomly.
+WARNING(654): signature[141] has no assigned placement; it will be placed randomly.
+WARNING(655): signature[142] has no assigned placement; it will be placed randomly.
+WARNING(656): signature[143] has no assigned placement; it will be placed randomly.
+WARNING(657): signature[144] has no assigned placement; it will be placed randomly.
+WARNING(658): signature[145] has no assigned placement; it will be placed randomly.
+WARNING(659): signature[146] has no assigned placement; it will be placed randomly.
+WARNING(660): signature[147] has no assigned placement; it will be placed randomly.
+WARNING(661): signature[148] has no assigned placement; it will be placed randomly.
+WARNING(662): signature[149] has no assigned placement; it will be placed randomly.
+WARNING(663): signature[150] has no assigned placement; it will be placed randomly.
+WARNING(664): signature[151] has no assigned placement; it will be placed randomly.
+WARNING(665): signature[152] has no assigned placement; it will be placed randomly.
+WARNING(666): signature[153] has no assigned placement; it will be placed randomly.
+WARNING(667): signature[154] has no assigned placement; it will be placed randomly.
+WARNING(668): signature[155] has no assigned placement; it will be placed randomly.
+WARNING(669): signature[156] has no assigned placement; it will be placed randomly.
+WARNING(670): signature[157] has no assigned placement; it will be placed randomly.
+WARNING(671): signature[158] has no assigned placement; it will be placed randomly.
+WARNING(672): signature[159] has no assigned placement; it will be placed randomly.
+WARNING(673): signature[160] has no assigned placement; it will be placed randomly.
+WARNING(674): signature[161] has no assigned placement; it will be placed randomly.
+WARNING(675): signature[162] has no assigned placement; it will be placed randomly.
+WARNING(676): signature[163] has no assigned placement; it will be placed randomly.
+WARNING(677): signature[164] has no assigned placement; it will be placed randomly.
+WARNING(678): signature[165] has no assigned placement; it will be placed randomly.
+WARNING(679): signature[166] has no assigned placement; it will be placed randomly.
+WARNING(680): signature[167] has no assigned placement; it will be placed randomly.
+WARNING(681): signature[168] has no assigned placement; it will be placed randomly.
+WARNING(682): signature[169] has no assigned placement; it will be placed randomly.
+WARNING(683): signature[170] has no assigned placement; it will be placed randomly.
+WARNING(684): signature[171] has no assigned placement; it will be placed randomly.
+WARNING(685): signature[172] has no assigned placement; it will be placed randomly.
+WARNING(686): signature[173] has no assigned placement; it will be placed randomly.
+WARNING(687): signature[174] has no assigned placement; it will be placed randomly.
+WARNING(688): signature[175] has no assigned placement; it will be placed randomly.
+WARNING(689): signature[176] has no assigned placement; it will be placed randomly.
+WARNING(690): signature[177] has no assigned placement; it will be placed randomly.
+WARNING(691): signature[178] has no assigned placement; it will be placed randomly.
+WARNING(692): signature[179] has no assigned placement; it will be placed randomly.
+WARNING(693): signature[180] has no assigned placement; it will be placed randomly.
+WARNING(694): signature[181] has no assigned placement; it will be placed randomly.
+WARNING(695): signature[182] has no assigned placement; it will be placed randomly.
+WARNING(696): signature[183] has no assigned placement; it will be placed randomly.
+WARNING(697): signature[184] has no assigned placement; it will be placed randomly.
+WARNING(698): signature[185] has no assigned placement; it will be placed randomly.
+WARNING(699): signature[186] has no assigned placement; it will be placed randomly.
+WARNING(700): signature[187] has no assigned placement; it will be placed randomly.
+WARNING(701): signature[188] has no assigned placement; it will be placed randomly.
+WARNING(702): signature[189] has no assigned placement; it will be placed randomly.
+WARNING(703): signature[190] has no assigned placement; it will be placed randomly.
+WARNING(704): signature[191] has no assigned placement; it will be placed randomly.
+WARNING(705): signature[192] has no assigned placement; it will be placed randomly.
+WARNING(706): signature[193] has no assigned placement; it will be placed randomly.
+WARNING(707): signature[194] has no assigned placement; it will be placed randomly.
+WARNING(708): signature[195] has no assigned placement; it will be placed randomly.
+WARNING(709): signature[196] has no assigned placement; it will be placed randomly.
+WARNING(710): signature[197] has no assigned placement; it will be placed randomly.
+WARNING(711): signature[198] has no assigned placement; it will be placed randomly.
+WARNING(712): signature[199] has no assigned placement; it will be placed randomly.
+WARNING(713): signature[200] has no assigned placement; it will be placed randomly.
+WARNING(714): signature[201] has no assigned placement; it will be placed randomly.
+WARNING(715): signature[202] has no assigned placement; it will be placed randomly.
+WARNING(716): signature[203] has no assigned placement; it will be placed randomly.
+WARNING(717): signature[204] has no assigned placement; it will be placed randomly.
+WARNING(718): signature[205] has no assigned placement; it will be placed randomly.
+WARNING(719): signature[206] has no assigned placement; it will be placed randomly.
+WARNING(720): signature[207] has no assigned placement; it will be placed randomly.
+WARNING(721): signature[208] has no assigned placement; it will be placed randomly.
+WARNING(722): signature[209] has no assigned placement; it will be placed randomly.
+WARNING(723): signature[210] has no assigned placement; it will be placed randomly.
+WARNING(724): signature[211] has no assigned placement; it will be placed randomly.
+WARNING(725): signature[212] has no assigned placement; it will be placed randomly.
+WARNING(726): signature[213] has no assigned placement; it will be placed randomly.
+WARNING(727): signature[214] has no assigned placement; it will be placed randomly.
+WARNING(728): signature[215] has no assigned placement; it will be placed randomly.
+WARNING(729): signature[216] has no assigned placement; it will be placed randomly.
+WARNING(730): signature[217] has no assigned placement; it will be placed randomly.
+WARNING(731): signature[218] has no assigned placement; it will be placed randomly.
+WARNING(732): signature[219] has no assigned placement; it will be placed randomly.
+WARNING(733): signature[220] has no assigned placement; it will be placed randomly.
+WARNING(734): signature[221] has no assigned placement; it will be placed randomly.
+WARNING(735): signature[222] has no assigned placement; it will be placed randomly.
+WARNING(736): signature[223] has no assigned placement; it will be placed randomly.
+WARNING(737): signature[224] has no assigned placement; it will be placed randomly.
+WARNING(738): signature[225] has no assigned placement; it will be placed randomly.
+WARNING(739): signature[226] has no assigned placement; it will be placed randomly.
+WARNING(740): signature[227] has no assigned placement; it will be placed randomly.
+WARNING(741): signature[228] has no assigned placement; it will be placed randomly.
+WARNING(742): signature[229] has no assigned placement; it will be placed randomly.
+WARNING(743): signature[230] has no assigned placement; it will be placed randomly.
+WARNING(744): signature[231] has no assigned placement; it will be placed randomly.
+WARNING(745): signature[232] has no assigned placement; it will be placed randomly.
+WARNING(746): signature[233] has no assigned placement; it will be placed randomly.
+WARNING(747): signature[234] has no assigned placement; it will be placed randomly.
+WARNING(748): signature[235] has no assigned placement; it will be placed randomly.
+WARNING(749): signature[236] has no assigned placement; it will be placed randomly.
+WARNING(750): signature[237] has no assigned placement; it will be placed randomly.
+WARNING(751): signature[238] has no assigned placement; it will be placed randomly.
+WARNING(752): signature[239] has no assigned placement; it will be placed randomly.
+WARNING(753): signature[240] has no assigned placement; it will be placed randomly.
+WARNING(754): signature[241] has no assigned placement; it will be placed randomly.
+WARNING(755): signature[242] has no assigned placement; it will be placed randomly.
+WARNING(756): signature[243] has no assigned placement; it will be placed randomly.
+WARNING(757): signature[244] has no assigned placement; it will be placed randomly.
+WARNING(758): signature[245] has no assigned placement; it will be placed randomly.
+WARNING(759): signature[246] has no assigned placement; it will be placed randomly.
+WARNING(760): signature[247] has no assigned placement; it will be placed randomly.
+WARNING(761): signature[248] has no assigned placement; it will be placed randomly.
+WARNING(762): signature[249] has no assigned placement; it will be placed randomly.
+WARNING(763): signature[250] has no assigned placement; it will be placed randomly.
+WARNING(764): signature[251] has no assigned placement; it will be placed randomly.
+WARNING(765): signature[252] has no assigned placement; it will be placed randomly.
+WARNING(766): signature[253] has no assigned placement; it will be placed randomly.
+WARNING(767): signature[254] has no assigned placement; it will be placed randomly.
+WARNING(768): signature[255] has no assigned placement; it will be placed randomly.
+WARNING(769): clk has no assigned placement; it will be placed randomly.
+WARNING(770): rst has no assigned placement; it will be placed randomly.
+770 IOs will have random placement.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create E:/vicharak/effinity_projects/sha_v1/outflow\sha_v1_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1    49107528          -49041        29.5%
+          2    41678856          -49467        32.7%
+          3    40256980          -49784        32.8%
+          4    36153488          -51321        35.4%
+          5    19459236          -55695        36.2%
+          6    11363919          -62867        40.5%
+          7     8044812          -68754        47.4%
+          8     4838346          -76070        49.4%
+          9     3251625          -76228        52.3%
+         10     2385936          -74952        52.3%
+         11     1909193          -78520        52.3%
+         12     1749404          -78326        54.4%
+         13     1629186          -80018        55.4%
+         14     1521380          -80918        57.5%
+         15     1462889          -81781        58.5%
+         16     1395021          -82188        61.0%
+         17     1316371          -82689        64.3%
+         18     1343336          -84060        68.1%
+         19     1360211          -86413        70.7%
+         20     1308060          -85646        73.4%
+         21     1213510          -88542        73.4%
+         22     1191376          -89384        78.6%
+         23     1163520          -91740        78.6%
+         24     1186152          -90428        82.1%
+         25     1183925          -89827        82.1%
+         26     1172606          -90041        82.1%
+         27     1140024          -89733        82.1%
+         28     1146101          -90472        85.8%
+         29     1136433          -90519        85.8%
+         30     1068665          -89731        85.8%
+         31     1116921          -92869        89.8%
+         32     1104125          -92829        89.8%
+         33     1044287          -90577        89.8%
+         34     1064970          -93983        89.8%
+         35     1045092          -92620        90.1%
+         36     1067869          -92245        90.1%
+         37     1069271          -93869        92.4%
+         38     1029532          -93594        92.4%
+         39     1004339          -94269        94.9%
+         40     1007578          -95700        94.9%
+         41     1007239          -94517        95.5%
+         42      990555          -97392        97.8%
+         43      981000          -97056        97.8%
+         44      981039          -98867        97.9%
+         45      966277          -97932        97.9%
+         46      978289          -97822        99.0%
+         47      971880          -98917        99.0%
+         48      979929         -100575        99.2%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      981000          111785        30.0
+          1      847022          101631        30.0
+          2      775110           95812        30.0
+          3      691043           93093        29.6
+          4      636398           91019        29.4
+          5      620624           89603        28.6
+          6      608154           88035        28.1
+          7      616163           86784        27.2
+          8      587540           86745        26.4
+          9      581695           85920        25.3
+         10      581822           85704        24.3
+         11      574469           85430        23.2
+         12      562939           84400        22.2
+         13      556285           83460        21.2
+         14      554935           82428        20.1
+         15      550323           82246        19.1
+         16      546364           81506        18.1
+         17      540102           80743        17.0
+         18      543010           81508        16.1
+         19      538157           80061        15.1
+         20      533799           79362        14.2
+         21      534349           79288        13.4
+         22      533082           79078        12.6
+         23      534086           78326        11.8
+         24      530441           78301        11.1
+         25      530071           77882        10.4
+         26      528072           78479         9.7
+         27      525205           78075         9.1
+         28      522969           77489         8.5
+         29      522005           76893         8.0
+         30      519110           76784         7.4
+         31      519190           75936         6.8
+         32      507602           81323         6.3
+Generate E:/vicharak/effinity_projects/sha_v1/outflow\sha_v1_after_qp.qdelay
+Placement successful: 13455 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.36201 at 119,103
+Congestion-weighted HPWL per net: 21.959
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.qplace'.
+Finished Realigning Types (5153 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.place'
+Placement took 62.0777 seconds.
+	Placement took 142.234 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 204.456 MB, end = 277.04 MB, delta = 72.584 MB
+	Placement peak virtual memory usage = 770.376 MB
+Placement resident set memory usage: begin = 209.304 MB, end = 271.524 MB, delta = 62.22 MB
+	Placement peak resident set memory usage = 755.784 MB
+***** Ending stage placement *****
+

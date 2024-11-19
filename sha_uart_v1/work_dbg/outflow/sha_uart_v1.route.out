@@ -1,0 +1,131 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from D:/Efinity/2023.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'D:/Efinity/2023.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'D:/Efinity/2023.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 33.6387 seconds.
+	BuildGraph process took 32.625 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 279.816 MB, end = 2432.92 MB, delta = 2153.1 MB
+	BuildGraph process peak virtual memory usage = 2458.95 MB
+BuildGraph process resident set memory usage: begin = 276.744 MB, end = 2368.02 MB, delta = 2091.28 MB
+	BuildGraph process peak resident set memory usage = 2393.72 MB
+check rr_graph process took 0.732632 seconds.
+	check rr_graph process took 0.71875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2648.08 MB, end = 2648.08 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2706.8 MB
+check rr_graph process resident set memory usage: begin = 2582.82 MB, end = 2582.89 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 2641.46 MB
+Generated 6663045 RR nodes and 25228963 RR edges
+This design has 0 global control net(s). See E:/vicharak/effinity_projects/sha_uart_v1/outflow\sha_uart_v1.route.rpt for details.
+Routing graph took 34.9681 seconds.
+	Routing graph took 33.8281 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 278.432 MB, end = 2415.42 MB, delta = 2136.99 MB
+	Routing graph peak virtual memory usage = 2706.8 MB
+Routing graph resident set memory usage: begin = 275.692 MB, end = 2350.97 MB, delta = 2075.28 MB
+	Routing graph peak resident set memory usage = 2641.46 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+SDC file 'E:/vicharak/effinity_projects/sha_uart_v1/sha_uart_v1.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        43460              131.7                3.9
+         2        14087              131.7               5.37
+         3         7759              131.6                5.9
+         4         4464              131.6               5.48
+         5         2877              131.6               7.27
+         6         1711              131.5               8.28
+         7         1046              131.6               8.41
+         8          524              131.6               14.9
+         9          234                132               9.34
+        10           94              132.1               5.35
+        11           23              132.3                5.8
+        12            6              132.3                3.1
+        13            1              132.3               1.89
+        14            0              132.3               1.86
+
+Successfully routed netlist after 14 routing iterations and 157196656 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 1239405425
+Netlist fully routed.
+
+Successfully created FPGA route file 'E:/vicharak/effinity_projects/sha_uart_v1/outflow/sha_uart_v1.route'
+Routing took 91.5286 seconds.
+	Routing took 90.5625 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2415.42 MB, end = 2592.6 MB, delta = 177.172 MB
+	Routing peak virtual memory usage = 3138.49 MB
+Routing resident set memory usage: begin = 2350.98 MB, end = 2532.08 MB, delta = 181.1 MB
+	Routing peak resident set memory usage = 2969.9 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+SDC file 'E:/vicharak/effinity_projects/sha_uart_v1/sha_uart_v1.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    clk        132.434        7.551          (R-R)
+
+Geomean max period: 132.434
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk            100.000          -32.434           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             0.000            0.306            (R-R)
+
+WARNING(1): Clock domain between clk (rising) and clk (rising) may not meet (slack: -32.434 ns) the setup (max) timing requirement
+
+Write Timing Report to "E:/vicharak/effinity_projects/sha_uart_v1/outflow\sha_uart_v1.timing.rpt" ...
+final timing analysis took 2.29151 seconds.
+	final timing analysis took 2.0625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2555.7 MB, end = 2578.23 MB, delta = 22.536 MB
+	final timing analysis peak virtual memory usage = 3138.49 MB
+final timing analysis resident set memory usage: begin = 2495.33 MB, end = 2511.35 MB, delta = 16.02 MB
+	final timing analysis peak resident set memory usage = 2969.9 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_uart_v1/outflow/sha_uart_v1.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_uart_v1/outflow/sha_uart_v1.interface.csv".
+Finished writing bitstream file E:/vicharak/effinity_projects/sha_uart_v1/work_pnr\sha_uart_v1.lbf.
+Bitstream generation took 4.78544 seconds.
+	Bitstream generation took 4.625 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2578.23 MB, end = 2720.69 MB, delta = 142.456 MB
+	Bitstream generation peak virtual memory usage = 3138.49 MB
+Bitstream generation resident set memory usage: begin = 2511.37 MB, end = 2648.95 MB, delta = 137.58 MB
+	Bitstream generation peak resident set memory usage = 2969.9 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 228.271 seconds.
+	The entire flow of EFX_PNR took 298.688 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.54 MB, end = 288.56 MB, delta = 283.02 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 3138.49 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.612 MB, end = 282.644 MB, delta = 270.032 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2969.9 MB

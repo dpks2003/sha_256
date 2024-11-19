@@ -1,0 +1,8 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Aug 27, 2024 09:29:57
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+sha_256_fsm_v1:sha_256_fsm_v1  	 2828(2828)	 5088(5088)	 7660(7660)	     0(0)	     0(0)	

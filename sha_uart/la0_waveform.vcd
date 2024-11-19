@@ -1,0 +1,59 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 o_Tx_active $end
+$var wire 1 1 o_uart_tx $end
+$var wire 4 2 useone/done $end
+$var wire 1 3 clk $end
+$var wire 1 4 useuart/r_Tx_Done $end
+$var wire 1 5 rst $end
+$var wire 8 6 useuart/r_Tx_Data $end
+$var wire 8 7 data_chunk $end
+$var wire 1 8 done $end
+$var wire 1 9 useuart/i_Clock $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+11
+b0100 2
+03
+04
+15
+b00000000 6
+b00000000 7
+08
+09
+$end
+#32768
+05
+#32838
+b11101001 7
+#32839
+10
+b11101001 6
+#32840
+01
+#38049
+11
+#43258
+01
+#53676
+11
+#58885
+01
+#64094
+11
+#65535
+10
+11
+b0100 2
+03
+04
+05
+b11101001 6
+b11101001 7
+08
+09

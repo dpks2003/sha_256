@@ -1,0 +1,55 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.2.307
+Date: 2024-09-02 17:44
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: sha_uart_v1
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+| PLL Instance | Resource | Reference Clock | Core Clock Reference Pin | FB Mode  | Core Feedback Pin | PLL Compensation Delay Max (ns) | PLL Compensation Delay Min (ns) |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+|  pll_inst1   | PLL_BL0  |     external    |                          | internal |                   |               N/A               |               N/A               |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+
++-------+-------------+-----------------------+
+| Clock | Period (ns) | Phase Shift (degrees) |
++-------+-------------+-----------------------+
+|  clk  |   100.0000  |           0           |
++-------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-----------+-----------+----------+----------+
+| Instance Name |  Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+-----------+-----------+----------+----------+
+|    clk_pll    |  clk_pll  |  GPIO_IN  |  1.396   |  0.698   |
+|   i_uart_rx   | i_uart_rx |  GPIO_IN  |  1.396   |  0.698   |
+|      rst      |    rst    |  GPIO_IN  |  1.396   |  0.698   |
+|   o_uart_tx   | o_uart_tx |  GPIO_OUT |  3.829   |  1.915   |
++---------------+-----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|     o_done    |  o_done  |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------

@@ -1,0 +1,223 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.396315 seconds.
+	VDB Netlist Checker took 0.375 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 78.828 MB, end = 78.828 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 81.396 MB
+VDB Netlist Checker resident set memory usage: begin = 87.572 MB, end = 87.756 MB, delta = 0.184 MB
+	VDB Netlist Checker peak resident set memory usage = 89.856 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.vdb".
+Netlist pre-processing took 1.12745 seconds.
+	Netlist pre-processing took 1.07812 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 14.464 MB, end = 135.508 MB, delta = 121.044 MB
+	Netlist pre-processing peak virtual memory usage = 135.508 MB
+Netlist pre-processing resident set memory usage: begin = 25.316 MB, end = 142.32 MB, delta = 117.004 MB
+	Netlist pre-processing peak resident set memory usage = 142.324 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.net_proto" took 0.058 seconds
+Creating IO constraints file 'E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.io_place'
+Packing took 0.356727 seconds.
+	Packing took 0.34375 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 82.82 MB, end = 117.264 MB, delta = 34.444 MB
+	Packing peak virtual memory usage = 135.508 MB
+Packing resident set memory usage: begin = 91.108 MB, end = 123.772 MB, delta = 32.664 MB
+	Packing peak resident set memory usage = 142.332 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.net_proto
+Read proto netlist for file "E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.net_proto" took 0.02 seconds
+Setup net and block data structure took 2.161 seconds
+Packed netlist loading took 4.66396 seconds.
+	Packed netlist loading took 6.51562 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 117.264 MB, end = 453.912 MB, delta = 336.648 MB
+	Packed netlist loading peak virtual memory usage = 493.068 MB
+Packed netlist loading resident set memory usage: begin = 123.78 MB, end = 448.12 MB, delta = 324.34 MB
+	Packed netlist loading peak resident set memory usage = 487.164 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+SDC file 'E:/vicharak/effinity_projects/sha_3cyc_v0/sha_3cyc_v0.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv".
+Writing IO placement constraints to 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.io_place'.
+The driver, rst, of control net, rst, should be placed at a dedicated control pad location.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1   262222384          472322         0.8%
+          2   216539920          478152         2.5%
+          3   137598352          421819         3.6%
+          4   143282928          399126         4.9%
+          5    66078616          302109         9.0%
+          6    30915316          241494        15.6%
+          7    13330262          191390        28.0%
+          8     7437077          134755        39.5%
+          9     6195348           98669        43.8%
+         10     5352033           84959        43.8%
+         11     4890937           95590        43.8%
+         12     4399617           98478        44.1%
+         13     4408146           91375        45.9%
+         14     4225806           95104        45.9%
+         15     4137545           96944        45.9%
+         16     4108925           93962        47.0%
+         17     4195652           92972        47.1%
+         18     3963851           93493        47.1%
+         19     3953836           89974        50.5%
+         20     3868144           87882        50.5%
+         21     3865984           80922        50.5%
+         22     3808113           87181        50.5%
+         23     3805094           82301        50.5%
+         24     3692605           79094        50.5%
+         25     3419687           79472        52.3%
+         26     3460480           69025        53.3%
+         27     3426578           65786        55.5%
+         28     3292249           57296        56.1%
+         29     3121126           62363        58.0%
+         30     3071580           50154        61.0%
+         31     2978593           45289        64.5%
+         32     2925033           31167        65.0%
+         33     2822643           33137        65.6%
+         34     2761500           27331        65.7%
+         35     2710313           20592        67.7%
+         36     2677235           14471        69.2%
+         37     2664839           16589        73.3%
+         38     2648835           14829        73.3%
+         39     2648711           13172        76.1%
+         40     2656922            2041        76.1%
+         41     2605186           10978        76.1%
+         42     2629051             328        76.1%
+         43     2599648            -342        76.1%
+         44     2588110            -357        76.9%
+         45     2531298           -9707        80.6%
+         46     2508519          -10849        80.6%
+         47     2538646          -17848        81.5%
+         48     2499256          -12990        81.8%
+         49     2499250          -17446        81.8%
+         50     2433233          -28999        86.0%
+         51     2434705          -39688        86.0%
+         52     2404807          -40906        86.0%
+         53     2389013          -48993        87.8%
+         54     2388127          -59508        87.8%
+         55     2361174          -52125        90.7%
+         56     2361901          -67244        90.7%
+         57     2352005          -66099        91.2%
+         58     2333909          -71108        91.2%
+         59     2339671          -62597        91.3%
+         60     2336195          -72505        91.3%
+         61     2330487          -69906        91.3%
+         62     2327851          -74270        91.3%
+         63     2322762          -79437        92.7%
+         64     2299612          -87601        93.1%
+         65     2296358          -92567        94.3%
+         66     2289883          -94752        94.6%
+         67     2293865         -100885        95.8%
+         68     2281495         -106996        98.5%
+         69     2262769         -119162        98.5%
+         70     2265585         -121973        98.8%
+         71     2264860         -133050        99.1%
+         72     2268663         -134058        99.5%
+         73     2269994         -140562        99.6%
+         74     2271161         -150249        99.9%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0     2281495         1149410        30.0
+          1     2137329          973258        30.0
+          2     2129036          923208        29.4
+          3     2018927          888808        28.5
+          4     1995705          873420        27.7
+          5     1954592          864404        26.5
+          6     1944162          855620        25.5
+          7     1930685          847935        24.4
+          8     1910807          841179        23.3
+          9     1897668          834288        22.1
+         10     1877065          826480        21.0
+         11     1895621          823510        19.9
+         12     1857969          820012        18.8
+         13     1821317          816536        17.7
+         14     1822386          814563        16.6
+         15     1799312          811149        15.6
+         16     1821816          810698        14.7
+         17     1836886          808127        13.8
+         18     1809766          805297        12.9
+         19     1786154          805023        12.1
+         20     1771898          803384        11.4
+         21     1778800          800663        10.7
+         22     1758464          799737        10.0
+         23     1759248          799400         9.4
+         24     1733230          797168         8.8
+         25     1712075          796199         8.2
+         26     1726041          796271         7.7
+         27     1699672          795319         7.1
+         28     1691735          793232         6.6
+         29     1669007          795237         6.2
+         30     1676298          795506         5.7
+         31     1708133          795952         5.3
+         32     1586346          999026         5.0
+Generate E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0_after_qp.qdelay
+Placement successful: 35958 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.593272 at 98,163
+Congestion-weighted HPWL per net: 26.6192
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.qplace'.
+Finished Realigning Types (16801 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.place'
+Placement took 251.434 seconds.
+	Placement took 660.109 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 461.308 MB, end = 658.08 MB, delta = 196.772 MB
+	Placement peak virtual memory usage = 1293.04 MB
+Placement resident set memory usage: begin = 451.048 MB, end = 637.352 MB, delta = 186.304 MB
+	Placement peak resident set memory usage = 1251.13 MB
+***** Ending stage placement *****
+

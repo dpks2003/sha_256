@@ -1,0 +1,276 @@
+Efinity Synthesis report for project edb_top
+Version: 2023.2.307
+Generated at: Aug 29, 2024 14:41:16
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : edb_top
+
+### ### File List (begin) ### ### ###
+E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:438)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 55
+Total number of FFs with enable signals: 770
+CE signal <ceg_net5>, number of controlling flip flops: 3
+CE signal <la0/n1113>, number of controlling flip flops: 21
+CE signal <la0/n15401>, number of controlling flip flops: 64
+CE signal <la0/n1972>, number of controlling flip flops: 22
+CE signal <la0/addr_ct_en>, number of controlling flip flops: 31
+CE signal <la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <ceg_net26>, number of controlling flip flops: 6
+CE signal <la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <ceg_net14>, number of controlling flip flops: 64
+CE signal <la0/n2825>, number of controlling flip flops: 3
+CE signal <la0/n3658>, number of controlling flip flops: 3
+CE signal <la0/n4519>, number of controlling flip flops: 3
+CE signal <la0/n4534>, number of controlling flip flops: 4
+CE signal <la0/n4732>, number of controlling flip flops: 4
+CE signal <la0/n5356>, number of controlling flip flops: 3
+CE signal <la0/n6189>, number of controlling flip flops: 3
+CE signal <la0/n7022>, number of controlling flip flops: 3
+CE signal <la0/n7911>, number of controlling flip flops: 3
+CE signal <la0/n7926>, number of controlling flip flops: 8
+CE signal <la0/n8124>, number of controlling flip flops: 8
+CE signal <la0/n8808>, number of controlling flip flops: 3
+CE signal <la0/n8823>, number of controlling flip flops: 8
+CE signal <la0/n9021>, number of controlling flip flops: 8
+CE signal <la0/n9649>, number of controlling flip flops: 3
+CE signal <la0/n10482>, number of controlling flip flops: 3
+CE signal <la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <la0/n14988>, number of controlling flip flops: 64
+CE signal <la0/n15052>, number of controlling flip flops: 64
+CE signal <la0/n15116>, number of controlling flip flops: 64
+CE signal <ceg_net221>, number of controlling flip flops: 32
+CE signal <la0/la_biu_inst/n367>, number of controlling flip flops: 17
+CE signal <la0/la_biu_inst/n1301>, number of controlling flip flops: 29
+CE signal <ceg_net345>, number of controlling flip flops: 2
+CE signal <ceg_net348>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 16
+CE signal <la0/la_biu_inst/n2043>, number of controlling flip flops: 16
+CE signal <la0/la_biu_inst/fifo_push>, number of controlling flip flops: 16
+CE signal <ceg_net355>, number of controlling flip flops: 34
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n309>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/n859>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n403>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n497>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n591>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n685>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n779>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n873>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n967>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1061>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1155>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1249>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1343>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1437>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1531>, number of controlling flip flops: 1
+CE signal <debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 6
+Total number of FFs with set/reset signals: 776
+SR signal <bscan_RESET>, number of controlling flip flops: 650
+SR signal <la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <la0/la_resetn>, number of controlling flip flops: 41
+SR signal <la0/n15620>, number of controlling flip flops: 1
+SR signal <la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 33
+SR signal <la0/la_biu_inst/fifo_with_read_inst/n1027>, number of controlling flip flops: 49
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[8].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[8].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[8].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i6
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5602)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i25
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i1
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i2
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i7
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i8
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i9
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i26
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[8].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (4447)" removed instance : la0/dff_964/i27
+@ "E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v (5541)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i5
+FF Output: la0/data_from_biu[28](=0)
+FF Output: la0/data_from_biu[29](=0)
+FF Output: la0/data_from_biu[30](=0)
+FF Output: la0/data_from_biu[31](=0)
+FF Output: la0/data_from_biu[32](=0)
+FF Output: la0/data_from_biu[33](=0)
+FF Output: la0/data_from_biu[34](=0)
+FF Output: la0/data_from_biu[35](=0)
+FF Output: la0/data_from_biu[36](=0)
+FF Output: la0/data_from_biu[37](=0)
+FF Output: la0/data_from_biu[38](=0)
+FF Output: la0/data_from_biu[39](=0)
+FF Output: la0/data_from_biu[40](=0)
+FF Output: la0/data_from_biu[41](=0)
+FF Output: la0/data_from_biu[42](=0)
+FF Output: la0/data_from_biu[43](=0)
+FF Output: la0/data_from_biu[44](=0)
+FF Output: la0/data_from_biu[45](=0)
+FF Output: la0/data_from_biu[46](=0)
+FF Output: la0/data_from_biu[47](=0)
+FF Output: la0/data_from_biu[48](=0)
+FF Output: la0/data_from_biu[49](=0)
+FF Output: la0/data_from_biu[50](=0)
+FF Output: la0/data_from_biu[51](=0)
+FF Output: la0/data_from_biu[52](=0)
+FF Output: la0/data_from_biu[53](=0)
+FF Output: la0/data_from_biu[54](=0)
+FF Output: la0/data_from_biu[55](=0)
+FF Output: la0/data_from_biu[56](=0)
+FF Output: la0/data_from_biu[57](=0)
+FF Output: la0/data_from_biu[58](=0)
+FF Output: la0/data_from_biu[59](=0)
+FF Output: la0/data_from_biu[60](=0)
+FF Output: la0/data_from_biu[61](=0)
+FF Output: la0/data_from_biu[62](=0)
+FF Output: la0/data_from_biu[63](=0)
+FF instance: la0/address_counter[31]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[0]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_rd_pointer[16]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[16]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[1]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[2]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[3]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[4]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[5]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[6]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[7]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[8]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[9]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[10]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[11]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[12]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[13]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[14]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[15]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[16]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+edb_top:edb_top                                                  1054(0)      131(0)     1545(0)    448(0)      0(0)
+ +la0:edb_la_top_renamed_due_excessive_length_1                 968(614)     131(51)   1511(706)    448(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32                                       32(32)        0(0)      55(55)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(W...      11(11)        0(0)      15(15)      0(0)      0(0)
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[5].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[6].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      29(29)      0(0)      0(0)
+  +GEN_PROBE[7].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      27(27)      0(0)      0(0)
+  +GEN_PROBE[8].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[9].genblk7.genblk3.trigger_cu:compare_unit(W...        8(8)        0(0)        9(9)      0(0)      0(0)
+  +trigger_tu:trigger_unit(WIDTH=32'b01010,PIPE=1)                  1(1)        0(0)        4(4)      0(0)      0(0)
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b011011,DATA_DEPTH...     222(63)       80(0)     614(75)    448(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b011...    159(127)      80(80)    539(112)    448(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit(TOTA...      16(16)        0(0)      35(35)      0(0)      0(0)
+    +transcode_read_addr:fifo_address_trancode_unit(TOTAL...      16(16)        0(0)      28(28)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(D...        0(0)        0(0)    364(364)  448(448)      0(0)
+ +debug_hub_inst:debug_hub                                        86(86)        0(0)      34(34)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+     Clock     Flip-Flops   Memory Ports    Multipliers
+     -----     ----------   ------------    -----------
+ bscan_TCK            650              0              0
+   la0_clk            404            896              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : edb_top
+root : edb_top
+I,include : E:/vicharak/effinity_projects/sha_uart
+output-dir : E:/vicharak/effinity_projects/sha_uart/outflow
+work-dir : E:/vicharak/effinity_projects/sha_uart/work_dbg
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	38
+OUTPUT PORTS    : 	1
+
+EFX_ADD         : 	131
+EFX_LUT4        : 	1545
+   1-2  Inputs  : 	258
+   3    Inputs  : 	540
+   4    Inputs  : 	747
+EFX_FF          : 	1054
+EFX_RAM_5K      : 	448
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 23s
+Elapsed synthesis time : 25s

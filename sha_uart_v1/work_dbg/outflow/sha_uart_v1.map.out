@@ -1,0 +1,194 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307
+[EFX-0000 INFO] Compiled: Dec 15 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "E:/vicharak/effinity_projects/sha_uart_v1/sha_uart_v1.xml"
+-- Analyzing Verilog file 'D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "E:/vicharak/effinity_projects/sha_uart_v1/sha_uart_v1.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "D:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\sha_uart_top.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv' (VERI-1482)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv(12): WARNING: non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\idh.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\vicharak\effinity_projects\sha_uart_v1\odh.sv' (VERI-1482)
+INFO: Analysis took 0.122765 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.644 MB, end = 55.988 MB, delta = 0.344 MB
+INFO: 	Analysis peak virtual memory usage = 55.996 MB
+INFO: Analysis resident set memory usage: begin = 57.852 MB, end = 58.928 MB, delta = 1.076 MB
+INFO: 	Analysis peak resident set memory usage = 58.932 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_uart_top.sv(4): INFO: compiling module 'sha_uart_top' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\idh.sv(2): INFO: compiling module 'input_data_handler' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv(1): INFO: compiling module 'uart_rx' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv(23): WARNING: using initial value of 'r_config_data' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv(85): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv(118): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv(21): WARNING: net 'r_Rx_Byte[8]' does not have a driver (VDB-1002)
+E:\vicharak\effinity_projects\sha_uart_v1\idh.sv(58): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\vicharak\effinity_projects\sha_uart_v1\odh.sv(25): INFO: compiling module 'output_data_handler' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(1): INFO: compiling module 'sha_256_fsm_v1' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(12): WARNING: using initial value of 'scheuleing' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(13): WARNING: using initial value of 'compressing' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(14): WARNING: using initial value of 'done' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(15): WARNING: using initial value of 'ideal' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(19): INFO: extracting RAM for identifier 'w' (VERI-2571)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(32): WARNING: using initial value of 'k' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(50): WARNING: using initial value of 'H0' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(51): WARNING: using initial value of 'H1' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(52): WARNING: using initial value of 'H2' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(53): WARNING: using initial value of 'H3' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(54): WARNING: using initial value of 'H4' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(55): WARNING: using initial value of 'H5' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(56): WARNING: using initial value of 'H6' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv(57): WARNING: using initial value of 'H7' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv(1): INFO: compiling module 'uart_tx' (VERI-1018)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv(26): WARNING: using initial value of 'r_config_data' since it is never assigned (VERI-1220)
+E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv(81): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+INFO: Elaboration took 0.682113 seconds.
+INFO: 	Elaboration took 0.609375 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 55.988 MB, end = 237.448 MB, delta = 181.46 MB
+INFO: 	Elaboration peak virtual memory usage = 237.448 MB
+INFO: Elaboration resident set memory usage: begin = 58.944 MB, end = 233.796 MB, delta = 174.852 MB
+INFO: 	Elaboration peak resident set memory usage = 233.8 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0120902 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 239.256 MB, end = 239.256 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 263.92 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 235.788 MB, end = 235.792 MB, delta = 0.004 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 258.844 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'select_1011' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:180)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'w'. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19)
+[EFX-0031 INFO] 'select_14' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\vicharak\effinity_projects\sha_uart_v1\odh.sv:91)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "sha_uart_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "input_data_handler" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "input_data_handler" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_256_fsm_v1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_256_fsm_v1" end (Real time : 8s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "output_data_handler" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "output_data_handler" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_uart_top" begin
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 1138 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_uart_top" end (Real time : 3s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 3467 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 701 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 17s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 9079, ed: 27482, lv: 7, pw: 24536.42
+[EFX-0000 INFO] ... LUT mapping end (Real time : 58s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 3440 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 12s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.18929 seconds.
+INFO: 	VDB Netlist Checker took 0.1875 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 362.5 MB, end = 362.5 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 496.864 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 353.484 MB, end = 353.52 MB, delta = 0.036 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 488.572 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'sha_uart_top' to Verilog file 'E:/vicharak/effinity_projects/sha_uart_v1/outflow/sha_uart_v1.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	4832
+[EFX-0000 INFO] EFX_LUT4        : 	9080
+[EFX-0000 INFO] EFX_FF          : 	3440
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

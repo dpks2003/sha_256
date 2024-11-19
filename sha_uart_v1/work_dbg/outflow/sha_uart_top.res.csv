@@ -1,0 +1,14 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Aug 30, 2024 11:15:12
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+sha_uart_top:sha_uart_top                                   	    8949(0)	    5211(0)	   15516(0)	  4232(0)	     0(0)	
+ +uutidh:input_data_handler                                 	   563(514)	       0(0)	   769(664)	     0(0)	     0(0)	
+  +userx:uart_rx                                            	     49(49)	       0(0)	   105(105)	     0(0)	     0(0)	
+ +uutodh:output_data_handler                                	   2860(18)	    5088(0)	   7695(63)	     0(0)	     0(0)	
+  +useone:sha_256_fsm_v1                                    	 2820(2820)	 5088(5088)	 7602(7602)	     0(0)	     0(0)	
+  +useuart:uart_tx                                          	     22(22)	       0(0)	     30(30)	     0(0)	     0(0)	
+ +edb_top_inst:edb_top                                      	 5526(5526)	   123(123)	 7052(7052)	4232(4232)	     0(0)	

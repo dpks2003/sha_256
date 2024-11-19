@@ -1,0 +1,75 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Mon Sep 23 10:36:41 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: t120f324_lpddr3_x16
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 404 / 1076 (37.55%)
+Outputs: 583 / 1566 (37.23%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 4548 / 112128 (4.06%)
+	LE: LUTs/Adders: 1606 / 112128 (1.43%)
+	LE: Registers: 3320 / 107520 (3.09%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|       bscan_DRCK       |    Input     |
+|       bscan_TMS        |    Input     |
+|     bscan_RUNTEST      |    Input     |
+|        bid_0[0]        |    Input     |
+|        bid_0[1]        |    Input     |
+|        bid_0[2]        |    Input     |
+|        bid_0[3]        |    Input     |
+|        bid_0[4]        |    Input     |
+|        bid_0[5]        |    Input     |
+|        bid_0[6]        |    Input     |
+|        bid_0[7]        |    Input     |
+|        rid_0[0]        |    Input     |
+|        rid_0[1]        |    Input     |
+|        rid_0[2]        |    Input     |
+|        rid_0[3]        |    Input     |
+|        rid_0[4]        |    Input     |
+|        rid_0[5]        |    Input     |
+|        rid_0[6]        |    Input     |
+|        rid_0[7]        |    Input     |
+|        rlast_0         |    Input     |
+|       rresp_0[0]       |    Input     |
+|       rresp_0[1]       |    Input     |
+|        bid_1[0]        |    Input     |
+|        bid_1[1]        |    Input     |
+|        bid_1[2]        |    Input     |
+|        bid_1[3]        |    Input     |
+|        bid_1[4]        |    Input     |
+|        bid_1[5]        |    Input     |
+|        bid_1[6]        |    Input     |
+|        bid_1[7]        |    Input     |
+|        rid_1[0]        |    Input     |
+|        rid_1[1]        |    Input     |
+|        rid_1[2]        |    Input     |
+|        rid_1[3]        |    Input     |
+|        rid_1[4]        |    Input     |
+|        rid_1[5]        |    Input     |
+|        rid_1[6]        |    Input     |
+|        rid_1[7]        |    Input     |
+|        rlast_1         |    Input     |
+|       rresp_1[0]       |    Input     |
+|       rresp_1[1]       |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 19 seconds

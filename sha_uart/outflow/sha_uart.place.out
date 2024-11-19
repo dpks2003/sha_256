@@ -1,0 +1,204 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.dbg.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.142669 seconds.
+	VDB Netlist Checker took 0.140625 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 34.228 MB, end = 34.252 MB, delta = 0.024 MB
+	VDB Netlist Checker peak virtual memory usage = 58.424 MB
+VDB Netlist Checker resident set memory usage: begin = 45.072 MB, end = 45.368 MB, delta = 0.296 MB
+	VDB Netlist Checker peak resident set memory usage = 69.544 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #5(jtag_inst1_DRCK) has no fanout.
+Removing input.
+logical_block #7(jtag_inst1_RUNTEST) has no fanout.
+Removing input.
+logical_block #12(jtag_inst1_TMS) has no fanout.
+Removing input.
+Pass 0: Swept away 3 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 3 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 3 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.dbg.vdb".
+Netlist pre-processing took 0.359049 seconds.
+	Netlist pre-processing took 0.359375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 19.22 MB, end = 45.96 MB, delta = 26.74 MB
+	Netlist pre-processing peak virtual memory usage = 58.424 MB
+Netlist pre-processing resident set memory usage: begin = 30.6 MB, end = 56.912 MB, delta = 26.312 MB
+	Netlist pre-processing peak resident set memory usage = 69.544 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "E:/vicharak/effinity_projects/sha_uart/work_pnr\sha_uart.net_proto" took 0.006 seconds
+Creating IO constraints file 'E:/vicharak/effinity_projects/sha_uart/work_pnr\sha_uart.io_place'
+Packing took 0.0404666 seconds.
+	Packing took 0.046875 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 43.464 MB, end = 47.124 MB, delta = 3.66 MB
+	Packing peak virtual memory usage = 58.424 MB
+Packing resident set memory usage: begin = 54.256 MB, end = 58.388 MB, delta = 4.132 MB
+	Packing peak resident set memory usage = 69.544 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file E:/vicharak/effinity_projects/sha_uart/work_pnr\sha_uart.net_proto
+Read proto netlist for file "E:/vicharak/effinity_projects/sha_uart/work_pnr\sha_uart.net_proto" took 0.008 seconds
+Setup net and block data structure took 0.365 seconds
+Packed netlist loading took 0.846745 seconds.
+	Packed netlist loading took 1.07812 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 47.124 MB, end = 143.312 MB, delta = 96.188 MB
+	Packed netlist loading peak virtual memory usage = 182.492 MB
+Packed netlist loading resident set memory usage: begin = 58.396 MB, end = 151.736 MB, delta = 93.34 MB
+	Packed netlist loading peak resident set memory usage = 190.788 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+SDC file 'E:/vicharak/effinity_projects/sha_uart/sha_uart.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.interface.csv".
+Writing IO placement constraints to 'E:/vicharak/effinity_projects/sha_uart/outflow\sha_uart.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_uart/outflow\sha_uart.interface.io'.
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_uart/work_pnr\sha_uart.io_place'.
+WARNING(1): Clock driver jtag_inst1_TCK should use the dedicated clock pad.
+WARNING(2): Clock input pad, clk, of net, clk, drives both clock buffer and logic. Expect extra clock skew.
+The driver, jtag_inst1_RESET, of control net, jtag_inst1_RESET, should be placed at a dedicated control pad location.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create E:/vicharak/effinity_projects/sha_uart/outflow\sha_uart_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1     7942046           15191         1.5%
+          2     5951884           15141         3.7%
+          3     3126354           14793         9.6%
+          4     2790221           11658        16.9%
+          5     1167837            9897        36.0%
+          6      748276            8459        43.5%
+          7      434966            7493        44.8%
+          8      352185            7627        44.8%
+          9      306721            7817        44.8%
+         10      311960            8234        45.4%
+         11      275333            7805        49.9%
+         12      221171            8249        50.9%
+         13      236305            8433        56.1%
+         14      209230            8266        58.8%
+         15      215504            8587        60.4%
+         16      200402            8284        61.6%
+         17      195025            7830        65.7%
+         18      185524            8479        67.3%
+         19      185422            8028        70.4%
+         20      176343            8102        71.4%
+         21      177327            8050        73.2%
+         22      169605            8283        74.8%
+         23      168717            8158        76.8%
+         24      160493            7514        79.6%
+         25      158066            8174        80.9%
+         26      155195            7362        82.7%
+         27      152775            7785        84.4%
+         28      150088            7429        86.1%
+         29      149324            7420        87.3%
+         30      148642            7492        88.6%
+         31      148490            7536        89.8%
+         32      146984            7348        90.8%
+         33      145797            7088        92.0%
+         34      146304            7932        92.6%
+         35      146083            7041        93.7%
+         36      146467            7458        94.6%
+         37      147141            7373        95.5%
+         38      149119            6828        96.3%
+         39      148395            7153        96.8%
+         40      149253            6513        98.6%
+         41      149945            6215        99.0%
+         42      150176            6483        99.0%
+         43      151700            6433        99.0%
+         44      149962            6599        99.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      148395           13244        30.0
+          1      132023           14480        30.0
+          2      105247           15250        30.0
+          3       98962           15973        30.0
+          4       92661           15633        30.0
+          5       85294           14930        30.0
+          6       83409           14192        30.0
+          7       78105           14808        30.0
+          8       78590           14131        30.0
+          9       76320           14678        30.0
+         10       73939           14643        30.0
+         11       72760           14382        30.0
+         12       72658           13438        30.0
+         13       71562           14324        30.0
+         14       71005           14341        30.0
+         15       69973           13161        30.0
+         16       68868           13723        30.0
+         17       70448           14099        29.8
+         18       68966           12782        29.5
+         19       67437           13240        29.0
+         20       66799           13319        28.4
+         21       68336           13802        27.7
+         22       66528           13339        26.8
+         23       66089           12834        25.8
+         24       64852           13094        24.8
+         25       67890           13483        23.8
+         26       65618           12967        22.8
+         27       66488           13692        21.7
+         28       64316           13274        20.6
+         29       66019           12980        19.6
+         30       64122           13112        18.6
+         31       65218           12197        17.2
+         32       62546           12475        15.8
+Generate E:/vicharak/effinity_projects/sha_uart/outflow\sha_uart_after_qp.qdelay
+Placement successful: 4758 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.156159 at 0,11
+Congestion-weighted HPWL per net: 10.788
+
+Reading placement constraints from 'E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.qplace'.
+Finished Realigning Types (1240 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'E:/vicharak/effinity_projects/sha_uart/outflow/sha_uart.place'
+Placement took 23.4455 seconds.
+	Placement took 39.25 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 155.128 MB, end = 189.216 MB, delta = 34.088 MB
+	Placement peak virtual memory usage = 640.44 MB
+Placement resident set memory usage: begin = 163.96 MB, end = 194.42 MB, delta = 30.46 MB
+	Placement peak resident set memory usage = 635.408 MB
+***** Ending stage placement *****
+

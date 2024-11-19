@@ -1,0 +1,963 @@
+Efinity Synthesis report for project sha_uart
+Version: 2023.2.307
+Generated at: Aug 29, 2024 14:41:47
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : sha_uart
+
+### ### File List (begin) ### ### ###
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'w'. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18)
+"MEM|SYN-0657" : Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 68
+Total number of FFs with enable signals: 1333
+CE signal <ceg_net40>, number of controlling flip flops: 14
+CE signal <ceg_net85>, number of controlling flip flops: 1
+CE signal <ceg_net86>, number of controlling flip flops: 1
+CE signal <ceg_net99>, number of controlling flip flops: 2
+CE signal <useone/n144202>, number of controlling flip flops: 263
+CE signal <useone/select_1072/Select_2/n3>, number of controlling flip flops: 256
+CE signal <useone/equal_1069/n7>, number of controlling flip flops: 1
+CE signal <useuart/r_SM_Main[2]>, number of controlling flip flops: 14
+CE signal <ceg_net93>, number of controlling flip flops: 1
+CE signal <ceg_net79>, number of controlling flip flops: 3
+CE signal <ceg_net77>, number of controlling flip flops: 1
+CE signal <useuart/n958>, number of controlling flip flops: 8
+CE signal <useone/equal_1067/n7>, number of controlling flip flops: 1
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n1113>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n15401>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n1972>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 31
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net26>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net14>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n2825>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3658>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4519>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4534>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n4732>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n5356>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6189>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7022>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7911>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7926>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n8124>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n8808>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8823>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n9021>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n9649>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n10482>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 10
+CE signal <edb_top_inst/la0/n14988>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n15052>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n15116>, number of controlling flip flops: 64
+CE signal <edb_top_inst/ceg_net221>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/la_biu_inst/n367>, number of controlling flip flops: 17
+CE signal <edb_top_inst/la0/la_biu_inst/n1301>, number of controlling flip flops: 29
+CE signal <edb_top_inst/ceg_net345>, number of controlling flip flops: 2
+CE signal <edb_top_inst/ceg_net348>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 16
+CE signal <edb_top_inst/la0/la_biu_inst/n2043>, number of controlling flip flops: 16
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net355>, number of controlling flip flops: 34
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n309>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n859>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n403>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n497>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n591>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n685>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n779>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n873>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n967>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1061>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1155>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1249>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1343>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1437>, number of controlling flip flops: 1
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/n1531>, number of controlling flip flops: 1
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 9
+Total number of FFs with set/reset signals: 794
+SR signal <rst>, number of controlling flip flops: 18
+SR signal <useuart/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <useuart/n940>, number of controlling flip flops: 1
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 647
+SR signal <edb_top_inst/la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 41
+SR signal <edb_top_inst/la0/n15620>, number of controlling flip flops: 1
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 33
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n1027>, number of controlling flip flops: 49
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81497
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81502
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81512
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79492
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79437
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79497
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79507
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79452
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79512
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79467
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79527
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79472
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79542
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79547
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79552
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79242
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79247
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79252
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79257
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79267
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79272
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79282
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79287
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79292
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79302
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79307
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79312
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79347
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79362
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79367
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79372
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79377
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79387
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79392
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79092
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79097
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79107
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79112
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79132
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79137
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79147
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79152
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79162
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79172
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79187
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79192
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79217
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79227
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i79232
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (240)" representative instance : useone/i1180
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81802
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81907
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81942
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81847
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81837
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81827
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81817
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81722
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81912
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81957
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81947
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81902
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81937
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81842
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81832
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81822
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81812
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81717
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81897
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81932
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81807
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81712
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81892
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81927
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81707
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81887
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81922
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81702
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81882
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81697
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81877
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81692
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81872
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81687
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81867
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81682
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81862
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81677
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81857
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81672
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81852
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81667
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81662
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81657
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81652
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81647
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81642
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81797
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81792
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81787
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81782
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81777
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81772
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81767
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81762
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81757
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81752
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81747
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81742
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81737
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81952
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81732
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" removed instance : i131/i81727
+@ "E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv (18)" representative instance : i131/i81917
+FF Output: i131/useone/w[0][0](=0)
+FF Output: i131/useone/w[0][1](=0)
+FF Output: i131/useone/w[0][4](=0)
+FF Output: i131/useone/w[0][7](=0)
+FF Output: i131/useone/w[0][8](=0)
+FF Output: i131/useone/w[0][9](=0)
+FF Output: i131/useone/w[0][12](=0)
+FF Output: i131/useone/w[0][15](=0)
+FF Output: i131/useone/w[0][17](=0)
+FF Output: i131/useone/w[0][19](=0)
+FF Output: i131/useone/w[0][20](=0)
+FF Output: i131/useone/w[0][23](=0)
+FF Output: i131/useone/w[0][24](=0)
+FF Output: i131/useone/w[0][25](=0)
+FF Output: i131/useone/w[0][26](=0)
+FF Output: i131/useone/w[0][28](=0)
+FF Output: i131/useone/w[0][31](=0)
+FF Output: i131/useone/w[1][4](=0)
+FF Output: i131/useone/w[1][7](=0)
+FF Output: i131/useone/w[1][11](=0)
+FF Output: i131/useone/w[1][15](=0)
+FF Output: i131/useone/w[1][16](=0)
+FF Output: i131/useone/w[1][17](=0)
+FF Output: i131/useone/w[1][18](=0)
+FF Output: i131/useone/w[1][19](=0)
+FF Output: i131/useone/w[1][20](=0)
+FF Output: i131/useone/w[1][22](=0)
+FF Output: i131/useone/w[1][23](=0)
+FF Output: i131/useone/w[1][28](=0)
+FF Output: i131/useone/w[1][31](=0)
+FF Output: i131/useone/w[2][0](=0)
+FF Output: i131/useone/w[2][1](=0)
+FF Output: i131/useone/w[2][2](=0)
+FF Output: i131/useone/w[2][3](=0)
+FF Output: i131/useone/w[2][4](=0)
+FF Output: i131/useone/w[2][5](=0)
+FF Output: i131/useone/w[2][6](=0)
+FF Output: i131/useone/w[2][8](=0)
+FF Output: i131/useone/w[2][9](=0)
+FF Output: i131/useone/w[2][11](=0)
+FF Output: i131/useone/w[2][12](=0)
+FF Output: i131/useone/w[2][15](=0)
+FF Output: i131/useone/w[2][16](=0)
+FF Output: i131/useone/w[2][17](=0)
+FF Output: i131/useone/w[2][20](=0)
+FF Output: i131/useone/w[2][23](=0)
+FF Output: i131/useone/w[2][24](=0)
+FF Output: i131/useone/w[2][26](=0)
+FF Output: i131/useone/w[2][27](=0)
+FF Output: i131/useone/w[2][31](=0)
+FF Output: i131/useone/w[3][0](=0)
+FF Output: i131/useone/w[3][1](=0)
+FF Output: i131/useone/w[3][2](=0)
+FF Output: i131/useone/w[3][3](=0)
+FF Output: i131/useone/w[3][4](=0)
+FF Output: i131/useone/w[3][5](=0)
+FF Output: i131/useone/w[3][6](=0)
+FF Output: i131/useone/w[3][7](=0)
+FF Output: i131/useone/w[3][8](=0)
+FF Output: i131/useone/w[3][9](=0)
+FF Output: i131/useone/w[3][10](=0)
+FF Output: i131/useone/w[3][11](=0)
+FF Output: i131/useone/w[3][12](=0)
+FF Output: i131/useone/w[3][13](=0)
+FF Output: i131/useone/w[3][14](=0)
+FF Output: i131/useone/w[3][15](=0)
+FF Output: i131/useone/w[3][16](=0)
+FF Output: i131/useone/w[3][17](=0)
+FF Output: i131/useone/w[3][18](=0)
+FF Output: i131/useone/w[3][19](=0)
+FF Output: i131/useone/w[3][20](=0)
+FF Output: i131/useone/w[3][21](=0)
+FF Output: i131/useone/w[3][22](=0)
+FF Output: i131/useone/w[3][23](=0)
+FF Output: i131/useone/w[3][24](=0)
+FF Output: i131/useone/w[3][25](=0)
+FF Output: i131/useone/w[3][26](=0)
+FF Output: i131/useone/w[3][27](=0)
+FF Output: i131/useone/w[3][28](=0)
+FF Output: i131/useone/w[3][29](=0)
+FF Output: i131/useone/w[3][30](=0)
+FF Output: i131/useone/w[3][31](=0)
+FF Output: i131/useone/w[4][0](=0)
+FF Output: i131/useone/w[4][1](=0)
+FF Output: i131/useone/w[4][2](=0)
+FF Output: i131/useone/w[4][3](=0)
+FF Output: i131/useone/w[4][4](=0)
+FF Output: i131/useone/w[4][5](=0)
+FF Output: i131/useone/w[4][6](=0)
+FF Output: i131/useone/w[4][7](=0)
+FF Output: i131/useone/w[4][8](=0)
+FF Output: i131/useone/w[4][9](=0)
+FF Output: i131/useone/w[4][10](=0)
+FF Output: i131/useone/w[4][11](=0)
+FF Output: i131/useone/w[4][12](=0)
+FF Output: i131/useone/w[4][13](=0)
+FF Output: i131/useone/w[4][14](=0)
+FF Output: i131/useone/w[4][15](=0)
+FF Output: i131/useone/w[4][16](=0)
+FF Output: i131/useone/w[4][17](=0)
+FF Output: i131/useone/w[4][18](=0)
+FF Output: i131/useone/w[4][19](=0)
+FF Output: i131/useone/w[4][20](=0)
+FF Output: i131/useone/w[4][21](=0)
+FF Output: i131/useone/w[4][22](=0)
+FF Output: i131/useone/w[4][23](=0)
+FF Output: i131/useone/w[4][24](=0)
+FF Output: i131/useone/w[4][25](=0)
+FF Output: i131/useone/w[4][26](=0)
+FF Output: i131/useone/w[4][27](=0)
+FF Output: i131/useone/w[4][28](=0)
+FF Output: i131/useone/w[4][29](=0)
+FF Output: i131/useone/w[4][30](=0)
+FF Output: i131/useone/w[4][31](=0)
+FF Output: i131/useone/w[5][0](=0)
+FF Output: i131/useone/w[5][1](=0)
+FF Output: i131/useone/w[5][2](=0)
+FF Output: i131/useone/w[5][3](=0)
+FF Output: i131/useone/w[5][4](=0)
+FF Output: i131/useone/w[5][5](=0)
+FF Output: i131/useone/w[5][6](=0)
+FF Output: i131/useone/w[5][7](=0)
+FF Output: i131/useone/w[5][8](=0)
+FF Output: i131/useone/w[5][9](=0)
+FF Output: i131/useone/w[5][10](=0)
+FF Output: i131/useone/w[5][11](=0)
+FF Output: i131/useone/w[5][12](=0)
+FF Output: i131/useone/w[5][13](=0)
+FF Output: i131/useone/w[5][14](=0)
+FF Output: i131/useone/w[5][15](=0)
+FF Output: i131/useone/w[5][16](=0)
+FF Output: i131/useone/w[5][17](=0)
+FF Output: i131/useone/w[5][18](=0)
+FF Output: i131/useone/w[5][19](=0)
+FF Output: i131/useone/w[5][20](=0)
+FF Output: i131/useone/w[5][21](=0)
+FF Output: i131/useone/w[5][22](=0)
+FF Output: i131/useone/w[5][23](=0)
+FF Output: i131/useone/w[5][24](=0)
+FF Output: i131/useone/w[5][25](=0)
+FF Output: i131/useone/w[5][26](=0)
+FF Output: i131/useone/w[5][27](=0)
+FF Output: i131/useone/w[5][28](=0)
+FF Output: i131/useone/w[5][29](=0)
+FF Output: i131/useone/w[5][30](=0)
+FF Output: i131/useone/w[5][31](=0)
+FF Output: i131/useone/w[6][0](=0)
+FF Output: i131/useone/w[6][1](=0)
+FF Output: i131/useone/w[6][2](=0)
+FF Output: i131/useone/w[6][3](=0)
+FF Output: i131/useone/w[6][4](=0)
+FF Output: i131/useone/w[6][5](=0)
+FF Output: i131/useone/w[6][6](=0)
+FF Output: i131/useone/w[6][7](=0)
+FF Output: i131/useone/w[6][8](=0)
+FF Output: i131/useone/w[6][9](=0)
+FF Output: i131/useone/w[6][10](=0)
+FF Output: i131/useone/w[6][11](=0)
+FF Output: i131/useone/w[6][12](=0)
+FF Output: i131/useone/w[6][13](=0)
+FF Output: i131/useone/w[6][14](=0)
+FF Output: i131/useone/w[6][15](=0)
+FF Output: i131/useone/w[6][16](=0)
+FF Output: i131/useone/w[6][17](=0)
+FF Output: i131/useone/w[6][18](=0)
+FF Output: i131/useone/w[6][19](=0)
+FF Output: i131/useone/w[6][20](=0)
+FF Output: i131/useone/w[6][21](=0)
+FF Output: i131/useone/w[6][22](=0)
+FF Output: i131/useone/w[6][23](=0)
+FF Output: i131/useone/w[6][24](=0)
+FF Output: i131/useone/w[6][25](=0)
+FF Output: i131/useone/w[6][26](=0)
+FF Output: i131/useone/w[6][27](=0)
+FF Output: i131/useone/w[6][28](=0)
+FF Output: i131/useone/w[6][29](=0)
+FF Output: i131/useone/w[6][30](=0)
+FF Output: i131/useone/w[6][31](=0)
+FF Output: i131/useone/w[7][0](=0)
+FF Output: i131/useone/w[7][1](=0)
+FF Output: i131/useone/w[7][2](=0)
+FF Output: i131/useone/w[7][3](=0)
+FF Output: i131/useone/w[7][4](=0)
+FF Output: i131/useone/w[7][5](=0)
+FF Output: i131/useone/w[7][6](=0)
+FF Output: i131/useone/w[7][7](=0)
+FF Output: i131/useone/w[7][8](=0)
+FF Output: i131/useone/w[7][9](=0)
+FF Output: i131/useone/w[7][10](=0)
+FF Output: i131/useone/w[7][11](=0)
+FF Output: i131/useone/w[7][12](=0)
+FF Output: i131/useone/w[7][13](=0)
+FF Output: i131/useone/w[7][14](=0)
+FF Output: i131/useone/w[7][15](=0)
+FF Output: i131/useone/w[7][16](=0)
+FF Output: i131/useone/w[7][17](=0)
+FF Output: i131/useone/w[7][18](=0)
+FF Output: i131/useone/w[7][19](=0)
+FF Output: i131/useone/w[7][20](=0)
+FF Output: i131/useone/w[7][21](=0)
+FF Output: i131/useone/w[7][22](=0)
+FF Output: i131/useone/w[7][23](=0)
+FF Output: i131/useone/w[7][24](=0)
+FF Output: i131/useone/w[7][25](=0)
+FF Output: i131/useone/w[7][26](=0)
+FF Output: i131/useone/w[7][27](=0)
+FF Output: i131/useone/w[7][28](=0)
+FF Output: i131/useone/w[7][29](=0)
+FF Output: i131/useone/w[7][30](=0)
+FF Output: i131/useone/w[7][31](=0)
+FF Output: i131/useone/w[8][0](=0)
+FF Output: i131/useone/w[8][1](=0)
+FF Output: i131/useone/w[8][2](=0)
+FF Output: i131/useone/w[8][3](=0)
+FF Output: i131/useone/w[8][4](=0)
+FF Output: i131/useone/w[8][5](=0)
+FF Output: i131/useone/w[8][6](=0)
+FF Output: i131/useone/w[8][7](=0)
+FF Output: i131/useone/w[8][8](=0)
+FF Output: i131/useone/w[8][9](=0)
+FF Output: i131/useone/w[8][10](=0)
+FF Output: i131/useone/w[8][11](=0)
+FF Output: i131/useone/w[8][12](=0)
+FF Output: i131/useone/w[8][13](=0)
+FF Output: i131/useone/w[8][14](=0)
+FF Output: i131/useone/w[8][15](=0)
+FF Output: i131/useone/w[8][16](=0)
+FF Output: i131/useone/w[8][17](=0)
+FF Output: i131/useone/w[8][18](=0)
+FF Output: i131/useone/w[8][19](=0)
+FF Output: i131/useone/w[8][20](=0)
+FF Output: i131/useone/w[8][21](=0)
+FF Output: i131/useone/w[8][22](=0)
+FF Output: i131/useone/w[8][23](=0)
+FF Output: i131/useone/w[8][24](=0)
+FF Output: i131/useone/w[8][25](=0)
+FF Output: i131/useone/w[8][26](=0)
+FF Output: i131/useone/w[8][27](=0)
+FF Output: i131/useone/w[8][28](=0)
+FF Output: i131/useone/w[8][29](=0)
+FF Output: i131/useone/w[8][30](=0)
+FF Output: i131/useone/w[8][31](=0)
+FF Output: i131/useone/w[9][0](=0)
+FF Output: i131/useone/w[9][1](=0)
+FF Output: i131/useone/w[9][2](=0)
+FF Output: i131/useone/w[9][3](=0)
+FF Output: i131/useone/w[9][4](=0)
+FF Output: i131/useone/w[9][5](=0)
+FF Output: i131/useone/w[9][6](=0)
+FF Output: i131/useone/w[9][7](=0)
+FF Output: i131/useone/w[9][8](=0)
+FF Output: i131/useone/w[9][9](=0)
+FF Output: i131/useone/w[9][10](=0)
+FF Output: i131/useone/w[9][11](=0)
+FF Output: i131/useone/w[9][12](=0)
+FF Output: i131/useone/w[9][13](=0)
+FF Output: i131/useone/w[9][14](=0)
+FF Output: i131/useone/w[9][15](=0)
+FF Output: i131/useone/w[9][16](=0)
+FF Output: i131/useone/w[9][17](=0)
+FF Output: i131/useone/w[9][18](=0)
+FF Output: i131/useone/w[9][19](=0)
+FF Output: i131/useone/w[9][20](=0)
+FF Output: i131/useone/w[9][21](=0)
+FF Output: i131/useone/w[9][22](=0)
+FF Output: i131/useone/w[9][23](=0)
+FF Output: i131/useone/w[9][24](=0)
+FF Output: i131/useone/w[9][25](=0)
+FF Output: i131/useone/w[9][26](=0)
+FF Output: i131/useone/w[9][27](=0)
+FF Output: i131/useone/w[9][28](=0)
+FF Output: i131/useone/w[9][29](=0)
+FF Output: i131/useone/w[9][30](=0)
+FF Output: i131/useone/w[9][31](=0)
+FF Output: i131/useone/w[10][0](=0)
+FF Output: i131/useone/w[10][1](=0)
+FF Output: i131/useone/w[10][2](=0)
+FF Output: i131/useone/w[10][3](=0)
+FF Output: i131/useone/w[10][4](=0)
+FF Output: i131/useone/w[10][5](=0)
+FF Output: i131/useone/w[10][6](=0)
+FF Output: i131/useone/w[10][7](=0)
+FF Output: i131/useone/w[10][8](=0)
+FF Output: i131/useone/w[10][9](=0)
+FF Output: i131/useone/w[10][10](=0)
+FF Output: i131/useone/w[10][11](=0)
+FF Output: i131/useone/w[10][12](=0)
+FF Output: i131/useone/w[10][13](=0)
+FF Output: i131/useone/w[10][14](=0)
+FF Output: i131/useone/w[10][15](=0)
+FF Output: i131/useone/w[10][16](=0)
+FF Output: i131/useone/w[10][17](=0)
+FF Output: i131/useone/w[10][18](=0)
+FF Output: i131/useone/w[10][19](=0)
+FF Output: i131/useone/w[10][20](=0)
+FF Output: i131/useone/w[10][21](=0)
+FF Output: i131/useone/w[10][22](=0)
+FF Output: i131/useone/w[10][23](=0)
+FF Output: i131/useone/w[10][24](=0)
+FF Output: i131/useone/w[10][25](=0)
+FF Output: i131/useone/w[10][26](=0)
+FF Output: i131/useone/w[10][27](=0)
+FF Output: i131/useone/w[10][28](=0)
+FF Output: i131/useone/w[10][29](=0)
+FF Output: i131/useone/w[10][30](=0)
+FF Output: i131/useone/w[10][31](=0)
+FF Output: i131/useone/w[11][0](=0)
+FF Output: i131/useone/w[11][1](=0)
+FF Output: i131/useone/w[11][2](=0)
+FF Output: i131/useone/w[11][3](=0)
+FF Output: i131/useone/w[11][4](=0)
+FF Output: i131/useone/w[11][5](=0)
+FF Output: i131/useone/w[11][6](=0)
+FF Output: i131/useone/w[11][7](=0)
+FF Output: i131/useone/w[11][8](=0)
+FF Output: i131/useone/w[11][9](=0)
+FF Output: i131/useone/w[11][10](=0)
+FF Output: i131/useone/w[11][11](=0)
+FF Output: i131/useone/w[11][12](=0)
+FF Output: i131/useone/w[11][13](=0)
+FF Output: i131/useone/w[11][14](=0)
+FF Output: i131/useone/w[11][15](=0)
+FF Output: i131/useone/w[11][16](=0)
+FF Output: i131/useone/w[11][17](=0)
+FF Output: i131/useone/w[11][18](=0)
+FF Output: i131/useone/w[11][19](=0)
+FF Output: i131/useone/w[11][20](=0)
+FF Output: i131/useone/w[11][21](=0)
+FF Output: i131/useone/w[11][22](=0)
+FF Output: i131/useone/w[11][23](=0)
+FF Output: i131/useone/w[11][24](=0)
+FF Output: i131/useone/w[11][25](=0)
+FF Output: i131/useone/w[11][26](=0)
+FF Output: i131/useone/w[11][27](=0)
+FF Output: i131/useone/w[11][28](=0)
+FF Output: i131/useone/w[11][29](=0)
+FF Output: i131/useone/w[11][30](=0)
+FF Output: i131/useone/w[11][31](=0)
+FF Output: i131/useone/w[12][0](=0)
+FF Output: i131/useone/w[12][1](=0)
+FF Output: i131/useone/w[12][2](=0)
+FF Output: i131/useone/w[12][3](=0)
+FF Output: i131/useone/w[12][4](=0)
+FF Output: i131/useone/w[12][5](=0)
+FF Output: i131/useone/w[12][6](=0)
+FF Output: i131/useone/w[12][7](=0)
+FF Output: i131/useone/w[12][8](=0)
+FF Output: i131/useone/w[12][9](=0)
+FF Output: i131/useone/w[12][10](=0)
+FF Output: i131/useone/w[12][11](=0)
+FF Output: i131/useone/w[12][12](=0)
+FF Output: i131/useone/w[12][13](=0)
+FF Output: i131/useone/w[12][14](=0)
+FF Output: i131/useone/w[12][15](=0)
+FF Output: i131/useone/w[12][16](=0)
+FF Output: i131/useone/w[12][17](=0)
+FF Output: i131/useone/w[12][18](=0)
+FF Output: i131/useone/w[12][19](=0)
+FF Output: i131/useone/w[12][20](=0)
+FF Output: i131/useone/w[12][21](=0)
+FF Output: i131/useone/w[12][22](=0)
+FF Output: i131/useone/w[12][23](=0)
+FF Output: i131/useone/w[12][24](=0)
+FF Output: i131/useone/w[12][25](=0)
+FF Output: i131/useone/w[12][26](=0)
+FF Output: i131/useone/w[12][27](=0)
+FF Output: i131/useone/w[12][28](=0)
+FF Output: i131/useone/w[12][29](=0)
+FF Output: i131/useone/w[12][30](=0)
+FF Output: i131/useone/w[12][31](=0)
+FF Output: i131/useone/w[13][0](=0)
+FF Output: i131/useone/w[13][1](=0)
+FF Output: i131/useone/w[13][2](=0)
+FF Output: i131/useone/w[13][3](=0)
+FF Output: i131/useone/w[13][4](=0)
+FF Output: i131/useone/w[13][5](=0)
+FF Output: i131/useone/w[13][6](=0)
+FF Output: i131/useone/w[13][7](=0)
+FF Output: i131/useone/w[13][8](=0)
+FF Output: i131/useone/w[13][9](=0)
+FF Output: i131/useone/w[13][10](=0)
+FF Output: i131/useone/w[13][11](=0)
+FF Output: i131/useone/w[13][12](=0)
+FF Output: i131/useone/w[13][13](=0)
+FF Output: i131/useone/w[13][14](=0)
+FF Output: i131/useone/w[13][15](=0)
+FF Output: i131/useone/w[13][16](=0)
+FF Output: i131/useone/w[13][17](=0)
+FF Output: i131/useone/w[13][18](=0)
+FF Output: i131/useone/w[13][19](=0)
+FF Output: i131/useone/w[13][20](=0)
+FF Output: i131/useone/w[13][21](=0)
+FF Output: i131/useone/w[13][22](=0)
+FF Output: i131/useone/w[13][23](=0)
+FF Output: i131/useone/w[13][24](=0)
+FF Output: i131/useone/w[13][25](=0)
+FF Output: i131/useone/w[13][26](=0)
+FF Output: i131/useone/w[13][27](=0)
+FF Output: i131/useone/w[13][28](=0)
+FF Output: i131/useone/w[13][29](=0)
+FF Output: i131/useone/w[13][30](=0)
+FF Output: i131/useone/w[13][31](=0)
+FF Output: i131/useone/w[14][0](=0)
+FF Output: i131/useone/w[14][1](=0)
+FF Output: i131/useone/w[14][2](=0)
+FF Output: i131/useone/w[14][3](=0)
+FF Output: i131/useone/w[14][4](=0)
+FF Output: i131/useone/w[14][5](=0)
+FF Output: i131/useone/w[14][6](=0)
+FF Output: i131/useone/w[14][7](=0)
+FF Output: i131/useone/w[14][8](=0)
+FF Output: i131/useone/w[14][9](=0)
+FF Output: i131/useone/w[14][10](=0)
+FF Output: i131/useone/w[14][11](=0)
+FF Output: i131/useone/w[14][12](=0)
+FF Output: i131/useone/w[14][13](=0)
+FF Output: i131/useone/w[14][14](=0)
+FF Output: i131/useone/w[14][15](=0)
+FF Output: i131/useone/w[14][16](=0)
+FF Output: i131/useone/w[14][17](=0)
+FF Output: i131/useone/w[14][18](=0)
+FF Output: i131/useone/w[14][19](=0)
+FF Output: i131/useone/w[14][20](=0)
+FF Output: i131/useone/w[14][21](=0)
+FF Output: i131/useone/w[14][22](=0)
+FF Output: i131/useone/w[14][23](=0)
+FF Output: i131/useone/w[14][24](=0)
+FF Output: i131/useone/w[14][25](=0)
+FF Output: i131/useone/w[14][26](=0)
+FF Output: i131/useone/w[14][27](=0)
+FF Output: i131/useone/w[14][28](=0)
+FF Output: i131/useone/w[14][29](=0)
+FF Output: i131/useone/w[14][30](=0)
+FF Output: i131/useone/w[14][31](=0)
+FF Output: i131/useone/w[15][0](=0)
+FF Output: i131/useone/w[15][1](=0)
+FF Output: i131/useone/w[15][2](=0)
+FF Output: i131/useone/w[15][5](=0)
+FF Output: i131/useone/w[15][7](=0)
+FF Output: i131/useone/w[15][8](=0)
+FF Output: i131/useone/w[15][9](=0)
+FF Output: i131/useone/w[15][10](=0)
+FF Output: i131/useone/w[15][11](=0)
+FF Output: i131/useone/w[15][12](=0)
+FF Output: i131/useone/w[15][13](=0)
+FF Output: i131/useone/w[15][14](=0)
+FF Output: i131/useone/w[15][15](=0)
+FF Output: i131/useone/w[15][16](=0)
+FF Output: i131/useone/w[15][17](=0)
+FF Output: i131/useone/w[15][18](=0)
+FF Output: i131/useone/w[15][19](=0)
+FF Output: i131/useone/w[15][20](=0)
+FF Output: i131/useone/w[15][21](=0)
+FF Output: i131/useone/w[15][22](=0)
+FF Output: i131/useone/w[15][23](=0)
+FF Output: i131/useone/w[15][24](=0)
+FF Output: i131/useone/w[15][25](=0)
+FF Output: i131/useone/w[15][26](=0)
+FF Output: i131/useone/w[15][27](=0)
+FF Output: i131/useone/w[15][28](=0)
+FF Output: i131/useone/w[15][29](=0)
+FF Output: i131/useone/w[15][30](=0)
+FF Output: i131/useone/w[15][31](=0)
+FF Output: i131/useone/w[17][30](=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+sha_uart:sha_uart                                               1853(18)      610(0)   2854(130)    448(0)      0(0)
+ +useone:sha_256_fsm_v1                                         780(780)    480(480)  1142(1142)      0(0)      0(0)
+ +useuart:uart_tx                                                 30(30)        0(0)      48(48)      0(0)      0(0)
+ +edb_top_inst:edb_top                                        1025(1025)    130(130)  1534(1534)  448(448)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops   Memory Ports    Multipliers
+          -----     ----------   ------------    -----------
+            clk           1206            896              0
+ jtag_inst1_TCK            647              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : sha_uart
+root : sha_uart
+I,include : E:/vicharak/effinity_projects/sha_uart
+output-dir : E:/vicharak/effinity_projects/sha_uart/outflow
+work-dir : E:/vicharak/effinity_projects/sha_uart/work_dbg
+write-efx-verilog : E:/vicharak/effinity_projects/sha_uart/work_dbg/sha_uart.dbg.map.v
+binary-db : E:/vicharak/effinity_projects/sha_uart/work_dbg/sha_uart.dbg.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	12
+OUTPUT PORTS    : 	3
+
+EFX_ADD         : 	610
+EFX_LUT4        : 	2854
+   1-2  Inputs  : 	630
+   3    Inputs  : 	853
+   4    Inputs  : 	1371
+EFX_FF          : 	1853
+EFX_RAM_5K      : 	448
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 34s
+Elapsed synthesis time : 35s

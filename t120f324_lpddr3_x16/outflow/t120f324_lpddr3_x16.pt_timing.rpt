@@ -1,0 +1,84 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.2.307
+Date: 2024-09-23 10:36
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: t120f324_lpddr3_x16
+Timing Model: C3 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+| PLL Instance | Resource | Reference Clock | Core Clock Reference Pin | FB Mode  | Core Feedback Pin | PLL Compensation Delay Max (ns) | PLL Compensation Delay Min (ns) |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+|   br0_pll    | PLL_BR0  |     external    |                          | internal |                   |               N/A               |               N/A               |
+|   br1_pll    | PLL_BR2  |     external    |                          | internal |                   |               N/A               |               N/A               |
++--------------+----------+-----------------+--------------------------+----------+-------------------+---------------------------------+---------------------------------+
+
++-----------------+-------------+-----------------------+
+|      Clock      | Period (ns) | Phase Shift (degrees) |
++-----------------+-------------+-----------------------+
+| br0_pll_CLKOUT0 |    2.5000   |           0           |
+|     axi_clk     |   32.0000   |           0           |
++-----------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+---------------+-----------+----------+----------+
+| Instance Name |    Pin Name   | Parameter | Max (ns) | Min (ns) |
++---------------+---------------+-----------+----------+----------+
+| br0_pll_clkin | br0_pll_clkin |  GPIO_IN  |  1.919   |  0.738   |
+| br1_pll_clkin | br1_pll_clkin |  GPIO_IN  |  1.919   |  0.738   |
++---------------+---------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+------------+-----------+----------+----------+
+| Instance Name |  Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+------------+-----------+----------+----------+
+|   check_rstn  | check_rstn |  GPIO_IN  |  2.228   |  0.857   |
+|    ddr_rstn   |  ddr_rstn  |  GPIO_IN  |  2.228   |  0.857   |
+|      done     |    done    |  GPIO_OUT |  4.605   |  1.771   |
+|      pass     |    pass    |  GPIO_OUT |  3.510   |  1.350   |
++---------------+------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++------------------+------------------+-----------+----------+----------+
+|  Instance Name   |     Pin Name     | Parameter | Max (ns) | Min (ns) |
++------------------+------------------+-----------+----------+----------+
+| o_br0_pll_locked | o_br0_pll_locked |  GPIO_OUT |  4.755   |  1.829   |
+| o_br1_pll_locked | o_br1_pll_locked |  GPIO_OUT |  4.755   |  1.829   |
+|    pll_locked    |    pll_locked    |  GPIO_OUT |  4.755   |  1.829   |
++------------------+------------------+-----------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------
+
+---------- 5. JTAG Timing Report (begin) ----------
+
++---------------+-----------+-----------+----------+----------+
+| Instance Name |  Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+-----------+-----------+----------+----------+
+|     bscan     | bscan_TDI |  JTAG_IN  |  3.139   |  1.208   |
+|     bscan     | bscan_TMS |  JTAG_IN  |  2.281   |  0.877   |
++---------------+-----------+-----------+----------+----------+
+
+---------- JTAG Timing Report (end) ----------

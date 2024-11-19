@@ -1,0 +1,21 @@
+[dumpfile] "E:\vicharak\effinity_projects\sha_uart\la0_waveform.vcd"
+[dumpfile_mtime] "Thu Aug 29 09:15:39 2024"
+[dumpfile_size] 708
+[savefile] "E:\vicharak\effinity_projects\sha_uart\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 32768 98304 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.o_Tx_active
+top.o_uart_tx
+top.\useone/done[3:0]
+top.clk
+top.\useuart/r_Tx_Done
+top.rst
+top.\useuart/r_Tx_Data[7:0]
+top.data_chunk[7:0]
+top.done
+top.\useuart/i_Clock

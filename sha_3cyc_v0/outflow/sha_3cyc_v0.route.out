@@ -1,0 +1,138 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from D:/Efinity/2023.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'D:/Efinity/2023.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'D:/Efinity/2023.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 28.792 seconds.
+	BuildGraph process took 28.2344 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 658.904 MB, end = 2733.44 MB, delta = 2074.53 MB
+	BuildGraph process peak virtual memory usage = 2758.36 MB
+BuildGraph process resident set memory usage: begin = 638.08 MB, end = 2651.1 MB, delta = 2013.02 MB
+	BuildGraph process peak resident set memory usage = 2675.95 MB
+check rr_graph process took 0.596048 seconds.
+	check rr_graph process took 0.59375 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2949.51 MB, end = 2949.51 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 3008.45 MB
+check rr_graph process resident set memory usage: begin = 2866.76 MB, end = 2866.82 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 2925.61 MB
+Generated 6687173 RR nodes and 25231788 RR edges
+This design has 0 global control net(s). See E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0.route.rpt for details.
+Routing graph took 29.8205 seconds.
+	Routing graph took 29.2188 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 658.08 MB, end = 2727.05 MB, delta = 2068.97 MB
+	Routing graph peak virtual memory usage = 3008.45 MB
+Routing graph resident set memory usage: begin = 637.352 MB, end = 2644.84 MB, delta = 2007.49 MB
+	Routing graph peak resident set memory usage = 2925.61 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+SDC file 'E:/vicharak/effinity_projects/sha_3cyc_v0/sha_3cyc_v0.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1       132997               1008               4.05
+         2        71903               1005               7.98
+         3        51173               1005               9.69
+         4        39111               1005               12.1
+         5        29411               1005               26.9
+         6        21880               1008               35.3
+         7        15515               1013               43.7
+         8        10563               1017                 37
+         9         6542               1026               35.8
+        10         3637               1039               30.4
+        11         1736               1052                 23
+        12          669               1064               22.3
+        13          205               1068               14.3
+        14           66               1071               9.59
+        15           24               1071               12.5
+        16           11               1071               13.3
+        17            4               1071               9.44
+        18            3               1071               7.82
+        19            2               1071               7.96
+        20            2               1071               8.62
+        21            0               1071               9.24
+
+Successfully routed netlist after 21 routing iterations and 945773236 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 343898472
+Netlist fully routed.
+
+Successfully created FPGA route file 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.route'
+Routing took 387.787 seconds.
+	Routing took 384.875 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2727.05 MB, end = 3427.45 MB, delta = 700.404 MB
+	Routing peak virtual memory usage = 4104.06 MB
+Routing resident set memory usage: begin = 2644.85 MB, end = 3342.14 MB, delta = 697.284 MB
+	Routing peak resident set memory usage = 3891.55 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+SDC file 'E:/vicharak/effinity_projects/sha_3cyc_v0/sha_3cyc_v0.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    clk        1071.586       0.933          (R-R)
+
+Geomean max period: 1071.586
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk            1000.000         -71.586           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             0.000            0.306            (R-R)
+
+WARNING(1): Clock domain between clk (rising) and clk (rising) may not meet (slack: -71.586 ns) the setup (max) timing requirement
+
+Write Timing Report to "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow\sha_3cyc_v0.timing.rpt" ...
+final timing analysis took 3.86506 seconds.
+	final timing analysis took 3.67188 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 3394.86 MB, end = 3463.13 MB, delta = 68.264 MB
+	final timing analysis peak virtual memory usage = 4104.06 MB
+final timing analysis resident set memory usage: begin = 3309.82 MB, end = 3362.08 MB, delta = 52.264 MB
+	final timing analysis peak resident set memory usage = 3891.55 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv'.
+Successfully processed interface constraints file "E:/vicharak/effinity_projects/sha_3cyc_v0/outflow/sha_3cyc_v0.interface.csv".
+Finished writing bitstream file E:/vicharak/effinity_projects/sha_3cyc_v0/work_pnr\sha_3cyc_v0.lbf.
+Bitstream generation took 3.42582 seconds.
+	Bitstream generation took 3.21875 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 3463.13 MB, end = 3617.02 MB, delta = 153.892 MB
+	Bitstream generation peak virtual memory usage = 4104.06 MB
+Bitstream generation resident set memory usage: begin = 3362.1 MB, end = 3510.05 MB, delta = 147.944 MB
+	Bitstream generation peak resident set memory usage = 3891.55 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 696.932 seconds.
+	The entire flow of EFX_PNR took 1101.64 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.612 MB, end = 295.752 MB, delta = 290.14 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 4104.06 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.628 MB, end = 293.628 MB, delta = 281 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 3891.55 MB

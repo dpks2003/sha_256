@@ -1,0 +1,83 @@
+Efinity Synthesis report for project sha_v1
+Version: 2023.2.307
+Generated at: Aug 27, 2024 09:29:57
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : sha_256_fsm_v1
+
+### ### File List (begin) ### ### ###
+E:\vicharak\effinity_projects\sha_v1\sha_fam_v0.sv
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'w'. (E:\vicharak\effinity_projects\sha_v1\sha_fam_v0.sv:17)
+"MEM|SYN-0657" : Mapping into logic memory block 'w' (2048 bits) (E:\vicharak\effinity_projects\sha_v1\sha_fam_v0.sv:17) because read port is not synchronous.
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 3
+Total number of FFs with enable signals: 2568
+CE signal <state[1]~FF_frt_0_q_pinv>, number of controlling flip flops: 2049
+CE signal <n144202>, number of controlling flip flops: 263
+CE signal <select_1072/Select_2/n3>, number of controlling flip flops: 256
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 0
+Total number of FFs with set/reset signals: 0
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                  FFs        ADDs        LUTs      RAMs DSP/MULTs
+-------------------------------         ---        ----        ----      ---- ---------
+sha_256_fsm_v1:sha_256_fsm_v1    2828(2828)  5088(5088)  7660(7660)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+   clk           2828              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : sha_v1
+project-xml : E:/vicharak/effinity_projects/sha_v1/sha_v1.xml
+root : sha_256_fsm_v1
+I,include : E:/vicharak/effinity_projects/sha_v1
+output-dir : E:/vicharak/effinity_projects/sha_v1/outflow
+work-dir : E:/vicharak/effinity_projects/sha_v1/work_syn
+write-efx-verilog : E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.map.v
+binary-db : E:/vicharak/effinity_projects/sha_v1/outflow/sha_v1.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	514
+OUTPUT PORTS    : 	256
+
+EFX_ADD         : 	5088
+EFX_LUT4        : 	7660
+   1-2  Inputs  : 	1081
+   3    Inputs  : 	4887
+   4    Inputs  : 	1692
+EFX_FF          : 	2828
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 75s
+Elapsed synthesis time : 77s

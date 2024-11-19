@@ -1,0 +1,8 @@
+modelsim/oneaxi.v
+top.v
+efx_crc32.v
+efx_custom_axist_master_model.v
+golden_data_storage.v
+dest_data_storage.v
+efx_fifo_top.modelsim.v
+tb.v

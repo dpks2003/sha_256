@@ -1,0 +1,51 @@
+{
+    "args": [
+        "-o",
+        "one",
+        "--base_path",
+        "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "bridges_and_adaptors",
+            "name": "efx_apb3_2_axi4_lite",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "ADDR_WTH": "16"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\one_tmpl.vhd",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\one_define.vh",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\one_tmpl.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\one.v"
+        ],
+        "external_example_example": [
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\demo_apb3_2_axi4_lite.peri.xml",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\demo_apb3_2_axi4_lite.xml",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\example_design_apb3_2_axi4_lite.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\demo_apb3_2_axi4_lite_T20.sdc",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\one.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\T20F256_devkit\\one_define.vh"
+        ],
+        "external_example_2": [
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\demo_apb3_2_axi4_lite.peri.xml",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\demo_apb3_2_axi4_lite.xml",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\example_design_apb3_2_axi4_lite.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\demo_apb3_2_axi4_lite_Ti60.sdc",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\one.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Ti60F225_devkit\\one_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Testbench\\tb_apb3_2_axi4_lite.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Testbench\\example_design_apb3_2_axi4_lite.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Testbench\\modelsim.do",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Testbench\\one.v",
+            "D:\\e\\vicharak\\effinity_projects\\t120f324_lpddr3_x16\\ip\\one\\Testbench\\one_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-09-25T10:27:50.292559"
+}

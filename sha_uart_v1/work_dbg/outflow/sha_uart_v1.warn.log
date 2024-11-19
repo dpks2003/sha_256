@@ -1,0 +1,1097 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 10:06:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 10:08:05
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 10:23:30
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 10:49:00
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:04:58
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:21:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:22:36
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:42:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:45:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 12:01:00
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 12:27:08
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 12:37:23
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 12:41:58
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 12:56:28
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 13:52:13
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 14:03:03
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 14:20:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 14:34:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 14:53:27
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 15:03:56
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 15:10:01
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 09:20:00
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 09:39:18
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 09:53:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 09:54:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 10:08:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 10:15:16
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 10:26:13
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 10:36:20
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 10:47:10
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 11:01:07
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 11:12:28
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 31, 2024 11:27:18
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 02, 2024 17:42:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] non-net output port 'o_Tx_Serial' cannot be initialized at declaration in SystemVerilog mode (VERI-2522) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:23)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:85)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:118)
+[EFX-0011 VERI-WARNING] net 'r_Rx_Byte[8]' does not have a driver (VDB-1002) (E:\vicharak\effinity_projects\sha_uart_v1\uart_rx.sv:21)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\idh.sv:58)
+[EFX-0011 VERI-WARNING] using initial value of 'scheuleing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:12)
+[EFX-0011 VERI-WARNING] using initial value of 'compressing' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:13)
+[EFX-0011 VERI-WARNING] using initial value of 'done' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:14)
+[EFX-0011 VERI-WARNING] using initial value of 'ideal' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:15)
+[EFX-0011 VERI-WARNING] using initial value of 'k' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:32)
+[EFX-0011 VERI-WARNING] using initial value of 'H0' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:50)
+[EFX-0011 VERI-WARNING] using initial value of 'H1' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:51)
+[EFX-0011 VERI-WARNING] using initial value of 'H2' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:52)
+[EFX-0011 VERI-WARNING] using initial value of 'H3' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:53)
+[EFX-0011 VERI-WARNING] using initial value of 'H4' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:54)
+[EFX-0011 VERI-WARNING] using initial value of 'H5' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:55)
+[EFX-0011 VERI-WARNING] using initial value of 'H6' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:56)
+[EFX-0011 VERI-WARNING] using initial value of 'H7' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:57)
+[EFX-0011 VERI-WARNING] using initial value of 'r_config_data' since it is never assigned (VERI-1220) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:26)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\vicharak\effinity_projects\sha_uart_v1\uart_tx.sv:81)
+[EFX-0008 WARNING] Top module not specified. 'sha_uart_top' is used as top module for the design.
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.

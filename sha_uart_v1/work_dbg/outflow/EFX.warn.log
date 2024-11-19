@@ -1,0 +1,110 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:09:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:140)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5721)
+[EFX-0200 WARNING] Removing redundant signal : din[528]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:13:15
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:140)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5721)
+[EFX-0200 WARNING] Removing redundant signal : din[528]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:15:11
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.

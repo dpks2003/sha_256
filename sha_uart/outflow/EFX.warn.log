@@ -1,0 +1,1361 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 12:20:08
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe7' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:128)
+[EFX-0011 VERI-WARNING] input port 'probe7[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5498)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5499)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5709)
+[EFX-0200 WARNING] Removing redundant signal : din[17]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4601)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4880)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4881)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1037)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:285)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:286)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 12:20:36
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:00:13
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe7' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:128)
+[EFX-0011 VERI-WARNING] input port 'probe7[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5498)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5499)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5709)
+[EFX-0200 WARNING] Removing redundant signal : din[17]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4601)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4880)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4881)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1037)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:285)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:286)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:00:41
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:46:00
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe7' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:128)
+[EFX-0011 VERI-WARNING] input port 'probe7[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5498)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5499)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5709)
+[EFX-0200 WARNING] Removing redundant signal : din[17]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4601)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4880)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4881)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1037)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:285)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:286)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:46:28
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:59:07
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe7' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:128)
+[EFX-0011 VERI-WARNING] input port 'probe7[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5498)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5499)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5709)
+[EFX-0200 WARNING] Removing redundant signal : din[17]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4601)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4880)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4881)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1037)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:285)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:286)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 13:59:37
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:09:27
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe7' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:128)
+[EFX-0011 VERI-WARNING] input port 'probe7[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5498)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5499)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5709)
+[EFX-0200 WARNING] Removing redundant signal : din[17]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4601)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4880)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4881)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1037)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1041)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3464)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:285)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:286)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:101)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:09:54
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:21:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:140)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5721)
+[EFX-0200 WARNING] Removing redundant signal : din[27]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:22:20
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:31:36
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:140)
+[EFX-0011 VERI-WARNING] repetition multiplier must be positive (VERI-1107) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4969)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5721)
+[EFX-0200 WARNING] Removing redundant signal : din[27]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:32:10
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:41:15
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:140)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:5721)
+[EFX-0200 WARNING] Removing redundant signal : din[27]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart/work_dbg/debug_top.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 29, 2024 14:41:46
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:16)
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[511]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[510]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[509]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[508]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[507]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[506]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[505]=1).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[504]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[503]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[502]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[501]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[500]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[499]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[498]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[497]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[496]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[495]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[494]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[493]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[492]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[491]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[490]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[489]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[488]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[487]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[486]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[485]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[484]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[483]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[482]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[481]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[480]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[479]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[478]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[477]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[476]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[475]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[474]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[473]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[472]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[471]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[470]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[469]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[468]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[467]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[466]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[465]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[464]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[463]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[462]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[461]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[460]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[459]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[458]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[457]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[456]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[455]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[454]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[453]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[452]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[451]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[450]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[449]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[448]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[447]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[446]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[445]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[444]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[443]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[442]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[441]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[440]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[439]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[438]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[437]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[436]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[435]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[434]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[433]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[432]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[431]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[430]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[429]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[428]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[427]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[426]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[425]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[424]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[423]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[422]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[421]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[420]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[419]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[418]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[417]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[416]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[415]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[414]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[413]=0).
+[EFX-0266 WARNING] Module Instance 'useone' input pin tied to constant (i_data[412]=0).
+[EFX-0657 WARNING] Mapping into logic memory block 'useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart\sha_256_fsm_v1.sv:18) because read port is not synchronous.

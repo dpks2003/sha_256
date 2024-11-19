@@ -1,0 +1,352 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:09:11
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4423)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4781)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4782)
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:140)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top_renamed_due_excessive_length_1' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:513)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:214)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000000000,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b01010,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5709)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=65536)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4858)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4600)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=16,CELL_ADDR_WIDTH=17)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4550)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16,RAM_INIT_FILE="")' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:423)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:438)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:292)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5721)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:438)
+[EFX-0200 WARNING] Removing redundant signal : din[528]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000000000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000000000,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b01010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b01010,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=16,CELL_ADDR_WIDTH=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=16,CELL_ADDR_WIDTH=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16,RAM_INIT_FILE="")" end (Real time : 42s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=16)" end (Real time : 2s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=65536)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=65536)" end (Real time : 2s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" end (Real time : 2s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 142 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 3s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 3967 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 1655 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 167 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 36s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:13:15
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4423)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4781)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4782)
+[EFX-0011 VERI-WARNING] port 'probe10' remains unconnected for this instance (VERI-1927) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:140)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top_renamed_due_excessive_length_1' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:513)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:214)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000000000,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5504)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b01010,PIPE=1)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5709)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=32768)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4858)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4600)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=15,CELL_ADDR_WIDTH=16)' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4550)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15,RAM_INIT_FILE="")' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:423)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:438)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:292)
+[EFX-0011 VERI-WARNING] input port 'probe10[0]' remains unconnected for this instance (VDB-1053) (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5510)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5511)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:5721)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:438)
+[EFX-0200 WARNING] Removing redundant signal : din[528]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4613)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:4893)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1046)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1048)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1049)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1053)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:1064)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[9]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[8]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[7]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[6]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[5]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[4]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[3]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[2]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:3476)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe12[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe13[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe14[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe15[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe16[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe17[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe18[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe19[0]'. (E:/vicharak/effinity_projects/sha_uart_v1/work_dbg/debug_top.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000000000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000000000,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b01010,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b01010,PIPE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=15,CELL_ADDR_WIDTH=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=15,CELL_ADDR_WIDTH=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15,RAM_INIT_FILE="")" end (Real time : 15s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b01000010001,ADDR_WIDTH=15)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=32768)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b01000010000,DATA_DEPTH=32768)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 140 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 2s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 3951 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 1654 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 209 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 26s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 7075, ed: 23380, lv: 8, pw: 14608.40
+[EFX-0000 INFO] ... LUT mapping end (Real time : 26s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 3951 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 1654 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 20s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	124
+[EFX-0000 INFO] EFX_LUT4        : 	7068
+[EFX-0000 INFO] EFX_FF          : 	5585
+[EFX-0000 INFO] EFX_RAM_5K      : 	4232
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 30, 2024 11:15:11
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'select_1002' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:151)
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:17)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'w'. (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "sha_uart_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "input_data_handler" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "input_data_handler" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_256_fsm_v1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_256_fsm_v1" end (Real time : 7s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "output_data_handler" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "output_data_handler" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_uart_top" begin
+[EFX-0657 WARNING] Mapping into logic memory block 'uutodh/useone/w' (2048 bits) (E:\vicharak\effinity_projects\sha_uart_v1\sha_256.sv:19) because read port is not synchronous.
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 60 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sha_uart_top" end (Real time : 3s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 7400 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 1652 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 2401 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 41s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 8463, ed: 25346, lv: 7, pw: 41368.86
+[EFX-0000 INFO] ... LUT mapping end (Real time : 43s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 1s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 7297 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 1652 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 33s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	5211
+[EFX-0000 INFO] EFX_LUT4        : 	15516
+[EFX-0000 INFO] EFX_FF          : 	8949
+[EFX-0000 INFO] EFX_RAM_5K      : 	4232
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
